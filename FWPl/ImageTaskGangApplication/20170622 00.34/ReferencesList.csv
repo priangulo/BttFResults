@@ -1,0 +1,640 @@
+from,to
+example.imagetaskgang.Options,example.imagetaskgang
+example.imagetaskgang.Options.mUniqueInstance,example.imagetaskgang
+example.imagetaskgang.Options.mUniqueInstance,example.imagetaskgang.Options
+example.imagetaskgang.Options.mPathname,example.imagetaskgang.Options
+example.imagetaskgang.Options.mSeparator,example.imagetaskgang.Options
+example.imagetaskgang.Options.mInputSource,example.imagetaskgang.Options
+example.imagetaskgang.Options.mDiagnosticsEnabled,example.imagetaskgang.Options
+example.imagetaskgang.Options.instance(),example.imagetaskgang.Options
+example.imagetaskgang.Options.instance(),example.imagetaskgang
+example.imagetaskgang.Options.instance(),example.imagetaskgang.Options.mUniqueInstance
+example.imagetaskgang.Options.getURLFilePathname(),example.imagetaskgang.Options
+example.imagetaskgang.Options.getURLFilePathname(),example.imagetaskgang.Options.mPathname
+example.imagetaskgang.Options.getSeparator(),example.imagetaskgang.Options
+example.imagetaskgang.Options.getSeparator(),example.imagetaskgang.Options.mSeparator
+example.imagetaskgang.Options.getInputSource(),example.imagetaskgang.Options
+example.imagetaskgang.Options.getInputSource(),example.imagetaskgang.Options.mInputSource
+example.imagetaskgang.Options.diagnosticsEnabled(),example.imagetaskgang.Options
+example.imagetaskgang.Options.diagnosticsEnabled(),example.imagetaskgang.Options.mDiagnosticsEnabled
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options.mPathname
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options.mDiagnosticsEnabled
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options.mSeparator
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options.mInputSource
+example.imagetaskgang.Options.parseArgs(String argv[]),example.imagetaskgang.Options.printUsage()
+example.imagetaskgang.Options.printUsage(),example.imagetaskgang.Options
+example.imagetaskgang.Options.Options(),example.imagetaskgang.Options
+example.imagetaskgang.ResultsActivity,example.imagetaskgang
+example.imagetaskgang.ResultsActivity.mFilterNames,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.mLayout,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.mColWidth,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.mNumCols,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.COL_WIDTH,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.imageAdapter,example.imagetaskgang
+example.imagetaskgang.ResultsActivity.imageAdapter,example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.imageAdapter,example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.layout
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.layout.activity_result
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.mLayout
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id.buttonList
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.imageAdapter
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id.imageGrid
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.mFilterNames
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.MainActivity
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.MainActivity.FILTER_EXTRA
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.configureGridView(GridView imageGrid)
+example.imagetaskgang.ResultsActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.ResultsActivity.addResultButton(String filterName)
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.R
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.R.layout
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.R.layout.result_button
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.ResultsActivity.imageAdapter
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.ResultsActivity.addResultButton(String filterName),example.imagetaskgang.ResultsActivity.mLayout
+example.imagetaskgang.ResultsActivity.configureGridView(GridView imageGrid),example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.configureGridView(GridView imageGrid),example.imagetaskgang.ResultsActivity.mNumCols
+example.imagetaskgang.ResultsActivity.configureGridView(GridView imageGrid),example.imagetaskgang.ResultsActivity.COL_WIDTH
+example.imagetaskgang.ResultsActivity.configureGridView(GridView imageGrid),example.imagetaskgang.ResultsActivity.mColWidth
+example.imagetaskgang.ResultsActivity.ImageAdapter,example.imagetaskgang
+example.imagetaskgang.ResultsActivity.ImageAdapter.mContext,example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.mPadding,example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps,example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.ImageAdapter(Context c),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.ImageAdapter(Context c),example.imagetaskgang.ResultsActivity.ImageAdapter.mContext
+example.imagetaskgang.ResultsActivity.ImageAdapter.ImageAdapter(Context c),example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps
+example.imagetaskgang.ResultsActivity.ImageAdapter.getCount(),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.getCount(),example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps
+example.imagetaskgang.ResultsActivity.ImageAdapter.getItem(int position),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.getItem(int position),example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps
+example.imagetaskgang.ResultsActivity.ImageAdapter.getItemId(int position),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity.ImageAdapter.mContext
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity.mColWidth
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity.ImageAdapter.mPadding
+example.imagetaskgang.ResultsActivity.ImageAdapter.getView(int position; View convertView; ViewGroup parent),example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps
+example.imagetaskgang.ResultsActivity.ImageAdapter.setBitmaps(String filterPath),example.imagetaskgang.ResultsActivity.ImageAdapter
+example.imagetaskgang.ResultsActivity.ImageAdapter.setBitmaps(String filterPath),example.imagetaskgang.ResultsActivity.ImageAdapter.mBitmaps
+example.imagetaskgang.FilterDecorator,example.imagetaskgang
+example.imagetaskgang.FilterDecorator,example.imagetaskgang.Filter
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity)
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.FilterDecorator.mFilter,example.imagetaskgang
+example.imagetaskgang.FilterDecorator.mFilter,example.imagetaskgang.Filter
+example.imagetaskgang.FilterDecorator.mFilter,example.imagetaskgang.FilterDecorator
+example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter),example.imagetaskgang.FilterDecorator
+example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter),example.imagetaskgang.Filter
+example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter),example.imagetaskgang
+example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter),example.imagetaskgang.FilterDecorator.mFilter
+example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter),example.imagetaskgang.Filter.getName()
+example.imagetaskgang.FilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator
+example.imagetaskgang.FilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.FilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator.mFilter
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator.decorate(ImageEntity imageEntity)
+example.imagetaskgang.FilterDecorator.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter.filter(ImageEntity imageEntity)
+example.imagetaskgang.Image,example.imagetaskgang
+example.imagetaskgang.NullFilter,example.imagetaskgang
+example.imagetaskgang.NullFilter,example.imagetaskgang.Filter
+example.imagetaskgang.NullFilter.NullFilter(),example.imagetaskgang.Filter.Filter()
+example.imagetaskgang.NullFilter.NullFilter(),example.imagetaskgang.Filter
+example.imagetaskgang.NullFilter.NullFilter(String name),example.imagetaskgang.Filter.Filter(String filterName)
+example.imagetaskgang.NullFilter.NullFilter(String name),example.imagetaskgang.Filter
+example.imagetaskgang.NullFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity)
+example.imagetaskgang.NullFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.NullFilter.NullFilter(),example.imagetaskgang.NullFilter
+example.imagetaskgang.NullFilter.NullFilter(String name),example.imagetaskgang.NullFilter
+example.imagetaskgang.NullFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.NullFilter
+example.imagetaskgang.NullFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.NullFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.OutputFilterDecorator,example.imagetaskgang
+example.imagetaskgang.OutputFilterDecorator,example.imagetaskgang.FilterDecorator
+example.imagetaskgang.OutputFilterDecorator.OutputFilterDecorator(Filter filter),example.imagetaskgang.FilterDecorator.FilterDecorator(Filter filter)
+example.imagetaskgang.OutputFilterDecorator.OutputFilterDecorator(Filter filter),example.imagetaskgang.FilterDecorator
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator.decorate(ImageEntity imageEntity)
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.FilterDecorator
+example.imagetaskgang.OutputFilterDecorator.OutputFilterDecorator(Filter filter),example.imagetaskgang.OutputFilterDecorator
+example.imagetaskgang.OutputFilterDecorator.OutputFilterDecorator(Filter filter),example.imagetaskgang.Filter
+example.imagetaskgang.OutputFilterDecorator.OutputFilterDecorator(Filter filter),example.imagetaskgang
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.OutputFilterDecorator
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.getDirectoryPath()
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.Filter.getName()
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.ImageEntity.getFileName()
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile)
+example.imagetaskgang.OutputFilterDecorator.decorate(ImageEntity imageEntity),example.imagetaskgang.ImageEntity.getImage()
+example.imagetaskgang.TaskGang,example.imagetaskgang
+example.imagetaskgang.TaskGang.mInput,example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.mExecutor,example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.mCurrentCycle,example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.getInput(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.getInput(),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.getInput(),example.imagetaskgang.TaskGang<E>.mInput
+example.imagetaskgang.TaskGang.setInput(List<E> input),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.setInput(List<E> input),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.setInput(List<E> input),example.imagetaskgang.TaskGang<E>.mInput
+example.imagetaskgang.TaskGang.setExecutor(Executor executor),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.setExecutor(Executor executor),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.setExecutor(Executor executor),example.imagetaskgang.TaskGang<E>.mExecutor
+example.imagetaskgang.TaskGang.getExecutor(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.getExecutor(),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.getExecutor(),example.imagetaskgang.TaskGang<E>.mExecutor
+example.imagetaskgang.TaskGang.incrementCycle(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.incrementCycle(),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.incrementCycle(),example.imagetaskgang.TaskGang<E>.mCurrentCycle
+example.imagetaskgang.TaskGang.currentCycle(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.currentCycle(),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.currentCycle(),example.imagetaskgang.TaskGang<E>.mCurrentCycle
+example.imagetaskgang.TaskGang.getNextInput(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.initiateHook(int inputSize),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.initiateTaskGang(int inputSize),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.advanceTaskToNextCycle(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.awaitTasksDone(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.taskDone(int index),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.processInput(E inputData),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.run(),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.run(),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.TaskGang.makeTask(final int index),example.imagetaskgang.TaskGang
+example.imagetaskgang.TaskGang.makeTask(final int index),example.imagetaskgang.TaskGang<E>
+example.imagetaskgang.ImageEntity,example.imagetaskgang
+example.imagetaskgang.ImageEntity.mImage,example.imagetaskgang
+example.imagetaskgang.ImageEntity.mImage,example.imagetaskgang.Image
+example.imagetaskgang.ImageEntity.mImage,example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.mSourceUrl,example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.mFilterName,example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.mSucceeded,example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; byte[] imageData),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; byte[] imageData),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; byte[] imageData),example.imagetaskgang.ImageEntity.mFilterName
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; byte[] imageData),example.imagetaskgang.ImageEntity.mSucceeded
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; byte[] imageData),example.imagetaskgang.ImageEntity.setImage(byte[] imageData)
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.Image
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.ImageEntity.mFilterName
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.ImageEntity.mSucceeded
+example.imagetaskgang.ImageEntity.ImageEntity(URL sourceURL; Image image),example.imagetaskgang.ImageEntity.mImage
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.Image
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.ImageEntity.mImage
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData)
+example.imagetaskgang.ImageEntity.setImage(byte[] imageData),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.ImageEntity.getImage(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getImage(),example.imagetaskgang.Image
+example.imagetaskgang.ImageEntity.getImage(),example.imagetaskgang
+example.imagetaskgang.ImageEntity.getImage(),example.imagetaskgang.ImageEntity.mImage
+example.imagetaskgang.ImageEntity.setSourceURL(URL url),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.setSourceURL(URL url),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.ImageEntity.getSourceURL(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getSourceURL(),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.ImageEntity.setFilterName(Filter filter),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.setFilterName(Filter filter),example.imagetaskgang.Filter
+example.imagetaskgang.ImageEntity.setFilterName(Filter filter),example.imagetaskgang
+example.imagetaskgang.ImageEntity.setFilterName(Filter filter),example.imagetaskgang.ImageEntity.mFilterName
+example.imagetaskgang.ImageEntity.setFilterName(Filter filter),example.imagetaskgang.Filter.getName()
+example.imagetaskgang.ImageEntity.getFilterName(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getFilterName(),example.imagetaskgang.ImageEntity.mFilterName
+example.imagetaskgang.ImageEntity.setSucceeded(boolean succeeded),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.setSucceeded(boolean succeeded),example.imagetaskgang.ImageEntity.mSucceeded
+example.imagetaskgang.ImageEntity.getSucceeded(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getSucceeded(),example.imagetaskgang.ImageEntity.mSucceeded
+example.imagetaskgang.ImageEntity.getFileName(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getFileName(),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.ImageEntity.getFormatName(),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageEntity.getFormatName(),example.imagetaskgang.ImageEntity.mSourceUrl
+example.imagetaskgang.PlatformStrategy,example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.sUniqueInstance,example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.sUniqueInstance,example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.instance(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.instance(),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.instance(),example.imagetaskgang.PlatformStrategy.sUniqueInstance
+example.imagetaskgang.PlatformStrategy.instance(PlatformStrategy platform),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.instance(PlatformStrategy platform),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.instance(PlatformStrategy platform),example.imagetaskgang.PlatformStrategy.sUniqueInstance
+example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.getDirectoryPath(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.PlatformStrategy(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.InputSource,example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.InputSource.DEFAULT,example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.InputSource.USER,example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.InputSource.FILE,example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.InputSource.ERROR,example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy.InputSource.DEFAULT
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy.InputSource.USER
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy.InputSource.FILE
+example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource),example.imagetaskgang.PlatformStrategy.InputSource.ERROR
+example.imagetaskgang.PlatformStrategy.getDefaultUrlList(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.BitmapImage,example.imagetaskgang.Image
+example.imagetaskgang.BitmapImage,example.imagetaskgang
+example.imagetaskgang.BitmapImage.mBitmap,example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.IMAGE_WIDTH,example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.IMAGE_HEIGHT,example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.BitmapImage(byte[] imageData),example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.BitmapImage(byte[] imageData),example.imagetaskgang.BitmapImage.mBitmap
+example.imagetaskgang.BitmapImage.BitmapImage(byte[] imageData),example.imagetaskgang.BitmapImage.IMAGE_WIDTH
+example.imagetaskgang.BitmapImage.BitmapImage(byte[] imageData),example.imagetaskgang.BitmapImage.IMAGE_HEIGHT
+example.imagetaskgang.BitmapImage.BitmapImage(byte[] imageData),example.imagetaskgang.BitmapImage.decodeSampledBitmapFromByteArray(byte[] imageData; int reqWidth; int reqHeight)
+example.imagetaskgang.BitmapImage.BitmapImage(Bitmap bitmap),example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.BitmapImage(Bitmap bitmap),example.imagetaskgang.BitmapImage.mBitmap
+example.imagetaskgang.BitmapImage.decodeSampledBitmapFromByteArray(byte[] imageData; int reqWidth; int reqHeight),example.imagetaskgang.BitmapImage
+example.imagetaskgang.BitmapImage.decodeSampledBitmapFromByteArray(byte[] imageData; int reqWidth; int reqHeight),example.imagetaskgang.BitmapImage.calculateInSampleSize(BitmapFactory.Options options; int reqWidth; int reqHeight)
+example.imagetaskgang.BitmapImage.calculateInSampleSize(BitmapFactory.Options options; int reqWidth; int reqHeight),example.imagetaskgang.BitmapImage
+example.imagetaskgang.PlatformStrategyConsole,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyConsole,example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategy.errorLog(String javaFile; String errorMessage)
+example.imagetaskgang.PlatformStrategyConsole.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.getDirectoryPath(),example.imagetaskgang.PlatformStrategy.getDirectoryPath()
+example.imagetaskgang.PlatformStrategyConsole.getDirectoryPath(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source)
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity)
+example.imagetaskgang.PlatformStrategyConsole.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData)
+example.imagetaskgang.PlatformStrategyConsole.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile)
+example.imagetaskgang.PlatformStrategyConsole.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyConsole.mOutput,example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.PlatformStrategyConsole(Object output),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.PlatformStrategyConsole(Object output),example.imagetaskgang.PlatformStrategyConsole.mOutput
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource.DEFAULT
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource.FILE
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.Options
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategyConsole.mOutput
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.Options.getURLFilePathname()
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.Options.instance()
+example.imagetaskgang.PlatformStrategyConsole.getUrlIterator(InputSource source),example.imagetaskgang.Options.getSeparator()
+example.imagetaskgang.PlatformStrategyConsole.getDirectoryPath(),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.makeImage(byte[] imageData),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategyConsole.makeImage(byte[] imageData),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyConsole.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.PlatformStrategyConsole.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyConsole.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategyConsole.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyConsole.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyConsole.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategyConsole.mOutput
+example.imagetaskgang.PlatformStrategyAndroid,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid,example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategy.errorLog(String javaFile; String errorMessage)
+example.imagetaskgang.PlatformStrategyAndroid.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.getDirectoryPath(),example.imagetaskgang.PlatformStrategy.getDirectoryPath()
+example.imagetaskgang.PlatformStrategyAndroid.getDirectoryPath(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source)
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity)
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategy.makeImage(byte[] imageData)
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategy.storeImage(Image image; FileOutputStream outputFile)
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyAndroid.mOuterClass,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.mOuterClass,example.imagetaskgang.MainActivity
+example.imagetaskgang.PlatformStrategyAndroid.mOuterClass,example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.EXTERNAL_PATH,example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.PlatformStrategyAndroid(final Object output),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.PlatformStrategyAndroid(final Object output),example.imagetaskgang.PlatformStrategyAndroid.mOuterClass
+example.imagetaskgang.PlatformStrategyAndroid.PlatformStrategyAndroid(final Object output),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.PlatformStrategyAndroid(final Object output),example.imagetaskgang.MainActivity
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource.DEFAULT
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategy.InputSource.USER
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.PlatformStrategyAndroid.mOuterClass
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.MainActivity
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.MainActivity.mListUrlGroups
+example.imagetaskgang.PlatformStrategyAndroid.getUrlIterator(InputSource source),example.imagetaskgang.MainActivity.showToast(String msg)
+example.imagetaskgang.PlatformStrategyAndroid.getDirectoryPath(),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.getDirectoryPath(),example.imagetaskgang.PlatformStrategyAndroid.EXTERNAL_PATH
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.makeImage(byte[] imageData),example.imagetaskgang.BitmapImage
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.BitmapImage
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.BitmapImage.mBitmap
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity.getImage()
+example.imagetaskgang.PlatformStrategyAndroid.grayScaleFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity.getSourceURL()
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.Image
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.BitmapImage
+example.imagetaskgang.PlatformStrategyAndroid.storeImage(Image imageAdapter; FileOutputStream outputFile),example.imagetaskgang.BitmapImage.mBitmap
+example.imagetaskgang.PlatformStrategyAndroid.errorLog(String javaFile; String errorMessage),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.ImageTaskGang,example.imagetaskgang
+example.imagetaskgang.ImageTaskGang,example.imagetaskgang.TaskGang<java.net.URL>
+example.imagetaskgang.ImageTaskGang.mUrlListIterator,example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.mFilters,example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.mFilters,example.imagetaskgang.Filter
+example.imagetaskgang.ImageTaskGang.mFilters,example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.mCompletionService,example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.mCompletionService,example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageTaskGang.mCompletionService,example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.mCompletionHook,example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.mIterationBarrier,example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.Filter
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageTaskGang.mFilters
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageTaskGang.mUrlListIterator
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageTaskGang.mCompletionHook
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.TaskGang<java.net.URL>
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageTaskGang.mCompletionService
+example.imagetaskgang.ImageTaskGang.ImageTaskGang(Filter[] filters; Iterator<List<URL>> urlListIterator; Runnable completionHook),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageTaskGang.getNextInput(),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.getNextInput(),example.imagetaskgang.ImageTaskGang.mUrlListIterator
+example.imagetaskgang.ImageTaskGang.getNextInput(),example.imagetaskgang.TaskGang<java.net.URL>
+example.imagetaskgang.ImageTaskGang.initiateTaskGang(int initialNumberOfURLs),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.initiateTaskGang(int initialNumberOfURLs),example.imagetaskgang.ImageTaskGang.mIterationBarrier
+example.imagetaskgang.ImageTaskGang.initiateTaskGang(int initialNumberOfURLs),example.imagetaskgang.TaskGang<java.net.URL>
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.Filter
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.ImageTaskGang.mFilters
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.ImageTaskGang.mCompletionService
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.OutputFilterDecorator
+example.imagetaskgang.ImageTaskGang.processInput(URL urlToDownload),example.imagetaskgang.ImageTaskGang.makeImageEntity(URL urlToDownload)
+example.imagetaskgang.ImageTaskGang.taskDone(int index),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.taskDone(int index),example.imagetaskgang.ImageTaskGang.mIterationBarrier
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.TaskGang<java.net.URL>
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.mIterationBarrier
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.mFilters
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.mCompletionHook
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.getNextInput()
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.initiateTaskGang(int initialNumberOfURLs)
+example.imagetaskgang.ImageTaskGang.awaitTasksDone(),example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount)
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.ImageTaskGang.mCompletionService
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.PlatformStrategy.errorLog(String javaFile; String errorMessage)
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.ImageEntity.getSourceURL()
+example.imagetaskgang.ImageTaskGang.concurrentlyProcessFilteredResults(int resultsCount),example.imagetaskgang.ImageEntity.getSucceeded()
+example.imagetaskgang.ImageTaskGang.makeImageEntity(URL urlToDownload),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.ImageTaskGang.makeImageEntity(URL urlToDownload),example.imagetaskgang.ImageEntity
+example.imagetaskgang.ImageTaskGang.makeImageEntity(URL urlToDownload),example.imagetaskgang
+example.imagetaskgang.ImageTaskGang.makeImageEntity(URL urlToDownload),example.imagetaskgang.ImageTaskGang.downloadContent(URL url)
+example.imagetaskgang.ImageTaskGang.downloadContent(URL url),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.BufferedImage,example.imagetaskgang.Image
+example.imagetaskgang.BufferedImage,example.imagetaskgang
+example.imagetaskgang.BufferedImage.BufferedImage(byte[] imageData),example.imagetaskgang.BufferedImage
+example.imagetaskgang.BufferedImage.BufferedImage(Object bufferedImage),example.imagetaskgang.BufferedImage
+example.imagetaskgang.GrayScaleFilter,example.imagetaskgang
+example.imagetaskgang.GrayScaleFilter,example.imagetaskgang.Filter
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(),example.imagetaskgang.Filter.Filter()
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(),example.imagetaskgang.Filter
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(String name),example.imagetaskgang.Filter.Filter(String filterName)
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(String name),example.imagetaskgang.Filter
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity)
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(),example.imagetaskgang.GrayScaleFilter
+example.imagetaskgang.GrayScaleFilter.GrayScaleFilter(String name),example.imagetaskgang.GrayScaleFilter
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.GrayScaleFilter
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.grayScaleFilter(ImageEntity imageEntity)
+example.imagetaskgang.GrayScaleFilter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.MainConsole,example.imagetaskgang
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.MainConsole
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.Filter
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.NullFilter
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.GrayScaleFilter
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.Options
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy.instance(PlatformStrategy platform)
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy()
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy.errorLog(String javaFile; String errorMessage)
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.Options.parseArgs(String argv[])
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.Options.instance()
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source)
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.PlatformStrategy.getInputSource(String inputSource)
+example.imagetaskgang.MainConsole.main(String[] args),example.imagetaskgang.Options.getInputSource()
+example.imagetaskgang.PlatformStrategyFactory,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.PlatformType,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.PlatformType.ANDROID,example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.PlatformType.PLAIN_JAVA,example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.mPlatformType,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.mPlatformType,example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.mPlatformType,example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand.execute(),example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand
+example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand.execute(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand.execute(),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap,example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap,example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap,example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand
+example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap,example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.mPlatformType
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.PlatformType.ANDROID
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyAndroid
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyFactory.PlatformType.PLAIN_JAVA
+example.imagetaskgang.PlatformStrategyFactory.PlatformStrategyFactory(final Object output),example.imagetaskgang.PlatformStrategyConsole
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory.mPlatformStrategyMap
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory.PlatformType
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory.mPlatformType
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand
+example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy(),example.imagetaskgang.PlatformStrategyFactory.IPlatformStrategyFactoryCommand.execute()
+example.imagetaskgang.Filter,example.imagetaskgang
+example.imagetaskgang.Filter.mName,example.imagetaskgang.Filter
+example.imagetaskgang.Filter.Filter(),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.Filter(),example.imagetaskgang.Filter.mName
+example.imagetaskgang.Filter.Filter(String filterName),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.Filter(String filterName),example.imagetaskgang.Filter.mName
+example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.Filter.filter(ImageEntity imageEntity),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.filter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity
+example.imagetaskgang.Filter.filter(ImageEntity imageEntity),example.imagetaskgang
+example.imagetaskgang.Filter.filter(ImageEntity imageEntity),example.imagetaskgang.Filter.applyFilter(ImageEntity imageEntity)
+example.imagetaskgang.Filter.filter(ImageEntity imageEntity),example.imagetaskgang.ImageEntity.setFilterName(Filter filter)
+example.imagetaskgang.Filter.setName(String filterName),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.setName(String filterName),example.imagetaskgang.Filter.mName
+example.imagetaskgang.Filter.getName(),example.imagetaskgang.Filter
+example.imagetaskgang.Filter.getName(),example.imagetaskgang.Filter.mName
+example.imagetaskgang.MainActivity,example.imagetaskgang
+example.imagetaskgang.MainActivity.mListUrlGroups,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.mRunButton,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.mFilters,example.imagetaskgang.Filter
+example.imagetaskgang.MainActivity.mFilters,example.imagetaskgang
+example.imagetaskgang.MainActivity.mFilters,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.mCompletionHook,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.layout
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.layout.activity_main
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.MainActivity.mListUrlGroups
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id.listOfURLLists
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.MainActivity.mRunButton
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.R.id.runWithUserURLs
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.PlatformStrategyFactory
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.Options
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.PlatformStrategy.instance(PlatformStrategy platform)
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.PlatformStrategyFactory.makePlatformStrategy()
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.Options.parseArgs(String argv[])
+example.imagetaskgang.MainActivity.onCreate(Bundle savedInstanceState),example.imagetaskgang.Options.instance()
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.Filter
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.MainActivity.mFilters
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.PlatformStrategy.InputSource.DEFAULT
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.MainActivity.mCompletionHook
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source)
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.MainActivity.runWithDefaultURLs(View view),example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled)
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.Filter
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.MainActivity.mFilters
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.ResultsActivity
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.MainActivity.FILTER_EXTRA
+example.imagetaskgang.MainActivity.displayImages(),example.imagetaskgang.Filter.getName()
+example.imagetaskgang.MainActivity.FILTER_EXTRA,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.SUGGESTIONS,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.mSuggestions,example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.MainActivity.mSuggestions
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.R
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.R.layout
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.R.layout.suggestion_item
+example.imagetaskgang.MainActivity.onStart(),example.imagetaskgang.MainActivity.SUGGESTIONS
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.R
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.R.layout
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.R.layout.list_item
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.MainActivity.mSuggestions
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.MainActivity.mListUrlGroups
+example.imagetaskgang.MainActivity.addURLs(View view),example.imagetaskgang.MainActivity.mRunButton
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.mRunButton
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.PlatformStrategy.InputSource
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.PlatformStrategy.InputSource.USER
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.ImageTaskGang
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.Filter
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.mFilters
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.mCompletionHook
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.PlatformStrategy.getUrlIterator(InputSource source)
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.PlatformStrategy.instance()
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.isEmpty()
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled)
+example.imagetaskgang.MainActivity.runWithUserURLs(View view),example.imagetaskgang.MainActivity.showToast(String msg)
+example.imagetaskgang.MainActivity.isEmpty(),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.isEmpty(),example.imagetaskgang.MainActivity.mListUrlGroups
+example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled),example.imagetaskgang
+example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled),example.imagetaskgang.R
+example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled),example.imagetaskgang.R.id
+example.imagetaskgang.MainActivity.setButtonsEnabled(boolean enabled),example.imagetaskgang.R.id.buttonLayout
+example.imagetaskgang.MainActivity.clearFilterDirectories(View view),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.clearFilterDirectories(View view),example.imagetaskgang
+example.imagetaskgang.MainActivity.clearFilterDirectories(View view),example.imagetaskgang.Filter
+example.imagetaskgang.MainActivity.clearFilterDirectories(View view),example.imagetaskgang.PlatformStrategy
+example.imagetaskgang.MainActivity.clearFilterDirectories(View view),example.imagetaskgang.MainActivity.mFilters
+example.imagetaskgang.MainActivity.deleteSubFolders(String path),example.imagetaskgang.MainActivity
+example.imagetaskgang.MainActivity.showToast(String msg),example.imagetaskgang.MainActivity
+example.imagetaskgang.R,example.imagetaskgang
+example.imagetaskgang.R.attr,example.imagetaskgang
+example.imagetaskgang.R.drawable,example.imagetaskgang
+example.imagetaskgang.R.drawable.ic_launcher,example.imagetaskgang.R.drawable
+example.imagetaskgang.R.id,example.imagetaskgang
+example.imagetaskgang.R.id.addList,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.buttonLayout,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.buttonList,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.clear,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.imageGrid,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.listOfURLLists,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.resultButton,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.resultLayout,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.runWithDefaultURLs,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.runWithUserURLs,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.scrollView,example.imagetaskgang.R.id
+example.imagetaskgang.R.id.suggestion_item,example.imagetaskgang.R.id
+example.imagetaskgang.R.layout,example.imagetaskgang
+example.imagetaskgang.R.layout.activity_main,example.imagetaskgang.R.layout
+example.imagetaskgang.R.layout.activity_result,example.imagetaskgang.R.layout
+example.imagetaskgang.R.layout.list_item,example.imagetaskgang.R.layout
+example.imagetaskgang.R.layout.result_button,example.imagetaskgang.R.layout
+example.imagetaskgang.R.layout.suggestion_item,example.imagetaskgang.R.layout
+example.imagetaskgang.R.string,example.imagetaskgang
+example.imagetaskgang.R.string.add_urls,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.app_name,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.clear_dirs,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.go_back,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.img_desc,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.run_with_user_urls,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.url_prompt,example.imagetaskgang.R.string
+example.imagetaskgang.R.string.use_default_urls,example.imagetaskgang.R.string
+example.imagetaskgang.R.style,example.imagetaskgang
+example.imagetaskgang.R.style.AppBaseTheme,example.imagetaskgang.R.style
+example.imagetaskgang.R.style.AppTheme,example.imagetaskgang.R.style
+example.imagetaskgang.BuildConfig,example.imagetaskgang
+example.imagetaskgang.BuildConfig.DEBUG,example.imagetaskgang.BuildConfig
