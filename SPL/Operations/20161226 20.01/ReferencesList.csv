@@ -1,0 +1,86 @@
+from,to
+opl.OPL,opl
+opl.OPL.main(String[] args),opl.OPL
+opl.OPL.main(String[] args),opl
+opl.OPL.main(String[] args),opl.Exp
+opl.OPL.main(String[] args),opl.Times
+opl.OPL.main(String[] args),opl.Int
+opl.OPL.main(String[] args),opl.Plus
+opl.OPL.main(String[] args),opl.Exp.print()
+opl.OPL.main(String[] args),opl.Exp.eval()
+opl.OPLTest,opl
+opl.OPLTest.test(),opl.OPLTest
+opl.OPLTest.test(),opl
+opl.OPLTest.test(),opl.Exp
+opl.OPLTest.test(),opl.Times
+opl.OPLTest.test(),opl.Int
+opl.OPLTest.test(),opl.Plus
+opl.OPLTest.test(),opl.Exp.eval()
+opl.OPLTest.test(),opl.Exp.print()
+opl.Exp,opl
+opl.Exp.print(),opl.Exp
+opl.Exp.eval(),opl.Exp
+opl.Plus,opl
+opl.Plus,opl.Exp
+opl.Plus.eval(),opl.Exp.eval()
+opl.Plus.eval(),opl.Exp
+opl.Plus.print(),opl.Exp.print()
+opl.Plus.print(),opl.Exp
+opl.Plus.l,opl
+opl.Plus.l,opl.Exp
+opl.Plus.l,opl.Plus
+opl.Plus.r,opl.Plus
+opl.Plus.r,opl.Exp
+opl.Plus.r,opl
+opl.Plus.Plus(Exp L; Exp R),opl.Plus
+opl.Plus.Plus(Exp L; Exp R),opl.Exp
+opl.Plus.Plus(Exp L; Exp R),opl
+opl.Plus.Plus(Exp L; Exp R),opl.Plus.l
+opl.Plus.Plus(Exp L; Exp R),opl.Plus.r
+opl.Plus.print(),opl.Plus
+opl.Plus.print(),opl.Plus.l
+opl.Plus.print(),opl.Plus.r
+opl.Plus.eval(),opl.Plus
+opl.Plus.eval(),opl.Plus.l
+opl.Plus.eval(),opl.Plus.r
+opl.Times,opl
+opl.Times,opl.Exp
+opl.Times.eval(),opl.Exp.eval()
+opl.Times.eval(),opl.Exp
+opl.Times.print(),opl.Exp.print()
+opl.Times.print(),opl.Exp
+opl.Times.l,opl
+opl.Times.l,opl.Exp
+opl.Times.l,opl.Times
+opl.Times.r,opl.Times
+opl.Times.r,opl.Exp
+opl.Times.r,opl
+opl.Times.Times(Exp L; Exp R),opl.Times
+opl.Times.Times(Exp L; Exp R),opl.Exp
+opl.Times.Times(Exp L; Exp R),opl
+opl.Times.Times(Exp L; Exp R),opl.Times.l
+opl.Times.Times(Exp L; Exp R),opl.Times.r
+opl.Times.print(),opl.Times
+opl.Times.print(),opl.Times.l
+opl.Times.print(),opl.Times.r
+opl.Times.eval(),opl.Times
+opl.Times.eval(),opl.Times.l
+opl.Times.eval(),opl.Times.r
+opl.Int,opl
+opl.Int,opl.Exp
+opl.Int.eval(),opl.Exp.eval()
+opl.Int.eval(),opl.Exp
+opl.Int.print(),opl.Exp.print()
+opl.Int.print(),opl.Exp
+opl.Int.v,opl.Int
+opl.Int.Int(int a),opl.Int
+opl.Int.Int(int a),opl.Int.v
+opl.Int.print(),opl.Int
+opl.Int.print(),opl.Int.v
+opl.Int.eval(),opl.Int
+opl.Int.eval(),opl.Int.v
+opl.OPLTest.test(),test
+opl.OPLTest.test(),test.Util
+opl.OPLTest.test(),test.Util.val(int r)
+test.Util,test
+test.Util.val(int r),test.Util

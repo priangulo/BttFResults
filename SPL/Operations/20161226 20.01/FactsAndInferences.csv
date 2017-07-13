@@ -1,0 +1,29 @@
+Identifier,TypeID,Type,Package,Class,Member,Feature,Is_fprivate?,Is_inferred?,Parent_features,Is_terminal?,Is_hook?,Inferences,User_comment,Member_modifier
+opl.OPL,2,Class,opl,OPL,,,FALSE,FALSE,,TRUE,FALSE,,,public
+opl,1,Package,opl,,,BASE,FALSE,FALSE,,TRUE,FALSE,,,
+opl.OPL.main(String[] args),4,Method,opl,OPL,main(String[] args),,FALSE,TRUE,,TRUE,TRUE,opl.OPL.main(String[] args); BttF says since it calls fprivate opl.Exp.eval() THEN it also belongs to EVAL   opl.OPL.main(String[] args); BttF says it's hook because calls element(s) classified in future features   Hook opl.OPL.main(String[] args); BttF says it calls fprivate elements; information about its feature to be determined.   ,,public
+opl.Exp,2,Class,opl,Exp,,BASE,FALSE,FALSE,,FALSE,FALSE,,,public
+opl.Times,2,Class,opl,Times,,,FALSE,FALSE,,TRUE,FALSE,,,public
+opl.Int,2,Class,opl,Int,,BASE,FALSE,FALSE,,TRUE,FALSE,,,public
+opl.Plus,2,Class,opl,Plus,,,FALSE,FALSE,,TRUE,FALSE,,,public
+opl.Exp.print(),4,Method,opl,Exp,print(),PRINT,TRUE,FALSE,,TRUE,FALSE,,,package-private
+opl.Exp.eval(),4,Method,opl,Exp,eval(),EVAL,TRUE,FALSE,,TRUE,FALSE,,,package-private
+opl.OPLTest,2,Class,opl,OPLTest,,,FALSE,FALSE,,TRUE,FALSE,,,public
+opl.OPLTest.test(),4,Method,opl,OPLTest,test(),,FALSE,TRUE,,TRUE,TRUE,opl.OPLTest.test(); BttF says since it calls fprivate opl.Exp.eval() THEN it also belongs to EVAL   opl.OPLTest.test(); BttF says it's hook because calls element(s) classified in future features   Hook opl.OPLTest.test(); BttF says it calls fprivate elements; information about its feature to be determined.   ,,public
+opl.Plus.eval(),4,Method,opl,Plus,eval(),EVAL,FALSE,TRUE,,TRUE,FALSE,opl.Plus.eval(); BttF says since it calls fprivate opl.Exp.eval() THEN it also belongs to EVAL   ,,package-private
+opl.Plus.print(),4,Method,opl,Plus,print(),PRINT,TRUE,TRUE,,TRUE,FALSE,opl.Plus.print(); BttF says since it calls fprivate opl.Exp.print() THEN it also belongs to PRINT   ,,package-private
+opl.Plus.l,3,Field,opl,Plus,l,,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Plus.r,3,Field,opl,Plus,r,,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Plus.Plus(Exp L; Exp R),5,Constructor,opl,Plus,Plus(Exp L; Exp R),,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Times.eval(),4,Method,opl,Times,eval(),EVAL,FALSE,TRUE,,TRUE,FALSE,opl.Times.eval(); BttF says since it calls fprivate opl.Exp.eval() THEN it also belongs to EVAL   ,,package-private
+opl.Times.print(),4,Method,opl,Times,print(),PRINT,TRUE,TRUE,,TRUE,FALSE,opl.Times.print(); BttF says since it calls fprivate opl.Exp.print() THEN it also belongs to PRINT   ,,package-private
+opl.Times.l,3,Field,opl,Times,l,,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Times.r,3,Field,opl,Times,r,,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Times.Times(Exp L; Exp R),5,Constructor,opl,Times,Times(Exp L; Exp R),,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Int.eval(),4,Method,opl,Int,eval(),EVAL,FALSE,TRUE,,TRUE,FALSE,opl.Int.eval(); BttF says since it calls fprivate opl.Exp.eval() THEN it also belongs to EVAL   ,,package-private
+opl.Int.print(),4,Method,opl,Int,print(),PRINT,TRUE,TRUE,,TRUE,FALSE,opl.Int.print(); BttF says since it calls fprivate opl.Exp.print() THEN it also belongs to PRINT   ,,package-private
+opl.Int.v,3,Field,opl,Int,v,,FALSE,FALSE,,TRUE,FALSE,,,package-private
+opl.Int.Int(int a),5,Constructor,opl,Int,Int(int a),,FALSE,FALSE,,TRUE,FALSE,,,package-private
+test,1,Package,test,,,,FALSE,FALSE,,TRUE,FALSE,,,
+test.Util,2,Class,test,Util,,,FALSE,FALSE,,TRUE,FALSE,,,public
+test.Util.val(int r),4,Method,test,Util,val(int r),,FALSE,FALSE,,TRUE,FALSE,,,public

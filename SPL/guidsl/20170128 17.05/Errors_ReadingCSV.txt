@@ -1,0 +1,21 @@
+
+You said: guidsl.SATSolver.dreader is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.SATSolver.reader is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.SATSolver.solver is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateAND(Element and) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateChoose1(Element node) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateConstraints(Element constraints) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateGrammar(Element grammar) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateIFF(Element iff) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateImplies(Element implies) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateModelFile(Element model) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateModelFileContent(Element model) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateNOT(Element not) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOP(Element node) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOR(Element or) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOnlyone(Element node) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generatePattern(Element pattern) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateProduction(Element prod) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateSubOnlyone(Element node) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.XMLUtils.getDocFromString(String xml) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.XMLUtils.getXMLStrFromDoc(Document doc) is fprivate of TOOL, BttF says: Declaration's identifier doesn't exist.

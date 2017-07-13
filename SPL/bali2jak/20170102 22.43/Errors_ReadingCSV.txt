@@ -1,0 +1,21 @@
+
+You said: guidsl.SATSolver.solver , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.SATSolver.reader , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.SATSolver.dreader , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateModelFileContent(Element model) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateGrammar(Element grammar) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateConstraints(Element constraints) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateModelFile(Element model) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateProduction(Element prod) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generatePattern(Element pattern) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOP(Element node) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateIFF(Element iff) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateImplies(Element implies) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateAND(Element and) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOR(Element or) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateNOT(Element not) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateOnlyone(Element node) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateChoose1(Element node) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.CubeXMLHandler.generateSubOnlyone(Element node) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.XMLUtils.getDocFromString(String xml) , BttF says: Declaration's identifier doesn't exist.
+You said: guidsl.XMLUtils.getXMLStrFromDoc(Document doc) , BttF says: Declaration's identifier doesn't exist.

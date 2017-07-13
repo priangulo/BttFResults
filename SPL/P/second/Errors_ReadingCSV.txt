@@ -1,0 +1,98 @@
+
+You said: mixin.QName is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.CastExpr2 is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_TypeNameListElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.True is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ConDecl is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.IntLit is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Literal is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.DefLabel is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Mult is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.TildeLA is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Eq is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.JTSParseTree is fpublic of COMMONBASE, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_ArrayInitC is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.AST_ArrayInit is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.GeOp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.StmExprList is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_Imports is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AspectStm is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_QualifiedName is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.UTEError is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_Catches is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ClsBody is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_FieldDecl is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.PlstIscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Env is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ImplClause is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_TypeNameList is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.IntExtClauseC is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Modifier is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_Program is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.MthCall is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModProtected is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ArrInit is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_VarInit is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.SmClsExtends is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.SmClassDecl is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.UmodSmExt is fpublic of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.UmodSmDecl is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.PrimitiveType is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.MthDector is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.PlusPlus2 is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.MethodDcl is fpublic of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.AssnOr is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModEscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModStatic is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.VarAssignC is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.VoidTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_VarDeclElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.DoubleTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.RefCons is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.LocalIdProd is fpublic of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.Cla1 is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ImpQual is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ImpEscape is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.UmodClassDecl is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.BoolTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModAbstract is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModPublic is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModNew is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_QualifiedNameElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.StrLit is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.NameId is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_VarDecl is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Ute is fpublic of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.AST_ExpStmt is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModTransient is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AST_Class is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.SourceDecl is fpublic of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ModVolatile is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.TypEscape is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ArrayInitializerElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ShortTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModSynchronized is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.DotTimesC is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModFinal is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.NameIdEscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.Plus is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.CharLit is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.AST_ArgList is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.DeclNameListElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ViEscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.program is fpublic of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.AiEscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.FPLit is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ModOverrides is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModPrivate is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ModNative is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.CharTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.ByteTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.IntTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.LongTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.FloatTyp is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.IdEscape is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.QNameListElem is fprivate of SYNTAX, BttF says the selected feature is not valid, valid features are: [KERNEL].
+You said: mixin.TlstEscape is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ClsEscape is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
+You said: mixin.ClsIscape is fprivate of SYNTAX, BttF says a contradiction was discovered in feature bounds for this declaration. SYNTAX > KERNEL
