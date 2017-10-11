@@ -1,0 +1,2 @@
+
+You said: GatesApp.MainTest.aEQb() is fpublic of CONSTRAINT, BttF insists it belongs to EVAL.

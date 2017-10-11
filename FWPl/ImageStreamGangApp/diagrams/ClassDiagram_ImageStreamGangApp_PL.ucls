@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="false" router="FAN">  
+  <class id="1" language="java" name="filters_plugin.Factory" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/filters_plugin/Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="71" x="152" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="streams_plugin.ImageStreamSequential" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamSequential.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="161" x="1035" y="286"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="streams_plugin.ImageStreamCompletableFuture1" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamCompletableFuture1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="215" x="331" y="286"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="streams_plugin.ImageStreamCompletableFutureBase" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamCompletableFutureBase.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="239" x="263" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="streams_plugin.ImageStreamCompletableFuture2" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamCompletableFuture2.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="119" width="215" x="76" y="286"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="streams_plugin.ImageStreamParallel" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamParallel.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="101" width="144" x="586" y="286"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="streams_plugin.Factory" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="73" x="542" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="8" language="java" name="streams_plugin.ImageStreamGangTest.TestsToRun" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamGangTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="137" width="225" x="770" y="286"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="9" language="java" name="streams_plugin.ImageStreamGangTest" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/streams_plugin/ImageStreamGangTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="209" width="212" x="655" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="utils_plugin.BlockingTask.SupplierManagedBlock" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils_plugin/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="176" x="686" y="622"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="utils_plugin.BlockingTask" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils_plugin/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="128" x="586" y="463"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="utils_plugin.BlockingTask.RunnableManagedBlock" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils_plugin/BlockingTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="161" x="485" y="622"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="utils_plugin.Factory" project="ImageStreamGangApp" 
+    file="/ImageStreamGangApp/src/main/java/utils_plugin/Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="65" width="71" x="41" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

@@ -1,0 +1,244 @@
+from,to
+searchtaskgang.OneShotExecutorService,searchtaskgang
+searchtaskgang.OneShotExecutorService,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorService.OneShotExecutorService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch)
+searchtaskgang.OneShotExecutorService.OneShotExecutorService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon.awaitTasksDone()
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorService.mExitBarrier,searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.mResultsQueue,searchtaskgang
+searchtaskgang.OneShotExecutorService.mResultsQueue,searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorService.mResultsQueue,searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.MAX_THREADS,searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.OneShotExecutorService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.initiateHook(int inputSize),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.initiateHook(int inputSize),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorService.initiateHook(int inputSize),searchtaskgang.OneShotExecutorService.mExitBarrier
+searchtaskgang.OneShotExecutorService.initiateHook(int inputSize),searchtaskgang.OneShotExecutorService.MAX_THREADS
+searchtaskgang.OneShotExecutorService.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.initiateTaskGang(int inputSize),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorService.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorService.initiateHook(int inputSize)
+searchtaskgang.OneShotExecutorService.processInput(String inputData),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.processInput(String inputData),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorService.processInput(String inputData),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorService.processInput(String inputData),searchtaskgang.OneShotExecutorService.queueResults(SearchResults results)
+searchtaskgang.OneShotExecutorService.processInput(String inputData),searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData)
+searchtaskgang.OneShotExecutorService.taskDone(int index),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.taskDone(int index),searchtaskgang.OneShotExecutorService.mExitBarrier
+searchtaskgang.OneShotExecutorService.queueResults(SearchResults results),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.queueResults(SearchResults results),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorService.queueResults(SearchResults results),searchtaskgang
+searchtaskgang.OneShotExecutorService.queueResults(SearchResults results),searchtaskgang.OneShotExecutorService.getQueue()
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.OneShotExecutorService.mExitBarrier
+searchtaskgang.OneShotExecutorService.awaitTasksDone(),searchtaskgang.OneShotExecutorService.processQueuedResults(final int resultCount)
+searchtaskgang.OneShotExecutorService.setQueue(BlockingQueue<SearchResults> q),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.setQueue(BlockingQueue<SearchResults> q),searchtaskgang
+searchtaskgang.OneShotExecutorService.setQueue(BlockingQueue<SearchResults> q),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorService.setQueue(BlockingQueue<SearchResults> q),searchtaskgang.OneShotExecutorService.mResultsQueue
+searchtaskgang.OneShotExecutorService.getQueue(),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.getQueue(),searchtaskgang
+searchtaskgang.OneShotExecutorService.getQueue(),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorService.getQueue(),searchtaskgang.OneShotExecutorService.mResultsQueue
+searchtaskgang.OneShotExecutorService.processQueuedResults(final int resultCount),searchtaskgang.OneShotExecutorService
+searchtaskgang.OneShotExecutorService.processQueuedResults(final int resultCount),searchtaskgang.SearchResults
+searchtaskgang.SearchResults,searchtaskgang
+searchtaskgang.SearchResults.mThreadId,searchtaskgang.SearchResults
+searchtaskgang.SearchResults.mWord,searchtaskgang.SearchResults
+searchtaskgang.SearchResults.mInputData,searchtaskgang.SearchResults
+searchtaskgang.SearchResults.mCycle,searchtaskgang.SearchResults
+searchtaskgang.SearchResults.mList,searchtaskgang
+searchtaskgang.SearchResults.mList,searchtaskgang.Result
+searchtaskgang.SearchResults.mList,searchtaskgang.SearchResults
+searchtaskgang.SearchResults.SearchResults(),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.SearchResults(),searchtaskgang.SearchResults.mList
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults.mThreadId
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults.mCycle
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults.mWord
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults.mInputData
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.SearchResults.mList
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang
+searchtaskgang.SearchResults.SearchResults(long threadId; long cycle; String word; String inputData),searchtaskgang.Result
+searchtaskgang.SearchResults.toString(),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.toString(),searchtaskgang.SearchResults.mThreadId
+searchtaskgang.SearchResults.toString(),searchtaskgang.SearchResults.mCycle
+searchtaskgang.SearchResults.toString(),searchtaskgang.SearchResults.mWord
+searchtaskgang.SearchResults.toString(),searchtaskgang.SearchResults.mInputData
+searchtaskgang.SearchResults.add(int index),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.add(int index),searchtaskgang.SearchResults.mList
+searchtaskgang.SearchResults.add(int index),searchtaskgang
+searchtaskgang.SearchResults.add(int index),searchtaskgang.Result
+searchtaskgang.SearchResults.isEmpty(),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.isEmpty(),searchtaskgang.SearchResults.mList
+searchtaskgang.SearchResults.print(),searchtaskgang.SearchResults
+searchtaskgang.SearchResults.print(),searchtaskgang
+searchtaskgang.SearchResults.print(),searchtaskgang.Result
+searchtaskgang.SearchResults.print(),searchtaskgang.SearchResults.mList
+searchtaskgang.SearchResults.print(),searchtaskgang.Result.mIndex
+searchtaskgang.SearchResults.print(),searchtaskgang.SearchResults.isEmpty()
+searchtaskgang.SearchResults.print(),searchtaskgang.SearchResults.toString()
+searchtaskgang.OneShotExecutorServiceFuture,searchtaskgang
+searchtaskgang.OneShotExecutorServiceFuture,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorServiceFuture.OneShotExecutorServiceFuture(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch)
+searchtaskgang.OneShotExecutorServiceFuture.OneShotExecutorServiceFuture(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorServiceFuture.mResultFutures,searchtaskgang
+searchtaskgang.OneShotExecutorServiceFuture.mResultFutures,searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorServiceFuture.mResultFutures,searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.OneShotExecutorServiceFuture.OneShotExecutorServiceFuture(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.OneShotExecutorServiceFuture.OneShotExecutorServiceFuture(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorServiceFuture.mResultFutures
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData)
+searchtaskgang.OneShotExecutorServiceFuture.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorServiceFuture.processFutureResults(List<Future<SearchResults>> resultFutures)
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorServiceFuture.processInput(final String inputData),searchtaskgang.OneShotExecutorServiceFuture.mResultFutures
+searchtaskgang.OneShotExecutorServiceFuture.processFutureResults(List<Future<SearchResults>> resultFutures),searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.OneShotExecutorServiceFuture.processFutureResults(List<Future<SearchResults>> resultFutures),searchtaskgang
+searchtaskgang.OneShotExecutorServiceFuture.processFutureResults(List<Future<SearchResults>> resultFutures),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorServiceFuture.processFutureResults(List<Future<SearchResults>> resultFutures),searchtaskgang.SearchResults.print()
+searchtaskgang.SearchTaskGangCommon,searchtaskgang
+searchtaskgang.SearchTaskGangCommon,searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.SearchTaskGangCommon.mWordsToFind,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.mInputIterator,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.mInputIterator
+searchtaskgang.SearchTaskGangCommon.getNextInput(),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.getNextInput(),searchtaskgang.SearchTaskGangCommon.mInputIterator
+searchtaskgang.SearchTaskGangCommon.getNextInput(),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData),searchtaskgang.SearchResults
+searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData),searchtaskgang
+searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData),searchtaskgang.SearchResults.add(int index)
+searchtaskgang.SearchTaskGangCommon.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.SearchTaskGangCommon.awaitTasksDone(),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.TaskGangTest,searchtaskgang
+searchtaskgang.TaskGangTest.mWordList,searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.mOneShotInputStrings,searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.diagnosticsEnabled,searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.printDebugging(String output),searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.printDebugging(String output),searchtaskgang.TaskGangTest.diagnosticsEnabled
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TestsToRun
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TestsToRun.ONESHOT_THREAD_PER_TASK
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.OneShotThreadPerTask
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TaskGangTest.mOneShotInputStrings
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_SERVICE
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.OneShotExecutorService
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_SERVICE_FUTURE
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.OneShotExecutorServiceFuture
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_COMPLETION_SERVICE
+searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice),searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang.TaskGangTest
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang.TestsToRun
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang.TaskGangTest.mWordList
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang.TaskGangTest.printDebugging(String output)
+searchtaskgang.TaskGangTest.main(String[] args),searchtaskgang.TaskGangTest.makeTaskGang(String[] wordList; TestsToRun choice)
+searchtaskgang.OneShotExecutorCompletionService,searchtaskgang
+searchtaskgang.OneShotExecutorCompletionService,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch)
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorCompletionService.mCompletionService,searchtaskgang
+searchtaskgang.OneShotExecutorCompletionService.mCompletionService,searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorCompletionService.mCompletionService,searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotExecutorCompletionService.mCompletionService
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang
+searchtaskgang.OneShotExecutorCompletionService.OneShotExecutorCompletionService(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorCompletionService.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.OneShotExecutorCompletionService.initiateTaskGang(int inputSize),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorCompletionService.initiateTaskGang(int inputSize),searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures()
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang.OneShotExecutorCompletionService.mCompletionService
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang
+searchtaskgang.OneShotExecutorCompletionService.processInput(final String inputData),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.OneShotExecutorCompletionService
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.SearchResults
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.OneShotExecutorCompletionService.mCompletionService
+searchtaskgang.OneShotExecutorCompletionService.concurrentlyProcessQueuedFutures(),searchtaskgang.SearchResults.print()
+searchtaskgang.OneShotThreadPerTask,searchtaskgang
+searchtaskgang.OneShotThreadPerTask,searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotThreadPerTask.OneShotThreadPerTask(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon.SearchTaskGangCommon(String[] wordsToFind; String[][] stringsToSearch)
+searchtaskgang.OneShotThreadPerTask.OneShotThreadPerTask(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotThreadPerTask.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon.awaitTasksDone()
+searchtaskgang.OneShotThreadPerTask.awaitTasksDone(),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotThreadPerTask.mWorkerThreads,searchtaskgang.OneShotThreadPerTask
+searchtaskgang.OneShotThreadPerTask.OneShotThreadPerTask(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotThreadPerTask
+searchtaskgang.OneShotThreadPerTask.OneShotThreadPerTask(String[] wordsToFind; String[][] stringsToSearch),searchtaskgang.OneShotThreadPerTask.mWorkerThreads
+searchtaskgang.OneShotThreadPerTask.initiateTaskGang(int inputSize),searchtaskgang.OneShotThreadPerTask
+searchtaskgang.OneShotThreadPerTask.initiateTaskGang(int inputSize),searchtaskgang.TaskGang<java.lang.String>
+searchtaskgang.OneShotThreadPerTask.initiateTaskGang(int inputSize),searchtaskgang.OneShotThreadPerTask.mWorkerThreads
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.OneShotThreadPerTask
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.SearchTaskGangCommon
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.SearchTaskGangCommon.mWordsToFind
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.SearchResults
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.SearchTaskGangCommon.searchForWord(String word; String inputData)
+searchtaskgang.OneShotThreadPerTask.processInput(String inputData),searchtaskgang.SearchResults.print()
+searchtaskgang.OneShotThreadPerTask.awaitTasksDone(),searchtaskgang.OneShotThreadPerTask
+searchtaskgang.OneShotThreadPerTask.awaitTasksDone(),searchtaskgang.OneShotThreadPerTask.mWorkerThreads
+searchtaskgang.TaskGang,searchtaskgang
+searchtaskgang.TaskGang.mInput,searchtaskgang.TaskGang
+searchtaskgang.TaskGang.mExecutor,searchtaskgang.TaskGang
+searchtaskgang.TaskGang.mCurrentCycle,searchtaskgang.TaskGang
+searchtaskgang.TaskGang.getInput(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.getInput(),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.getInput(),searchtaskgang.TaskGang<String>.mInput
+searchtaskgang.TaskGang.setInput(List<String> input),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.setInput(List<String> input),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.setInput(List<String> input),searchtaskgang.TaskGang<String>.mInput
+searchtaskgang.TaskGang.setExecutor(Executor executor),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.setExecutor(Executor executor),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.setExecutor(Executor executor),searchtaskgang.TaskGang<String>.mExecutor
+searchtaskgang.TaskGang.getExecutor(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.getExecutor(),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.getExecutor(),searchtaskgang.TaskGang<String>.mExecutor
+searchtaskgang.TaskGang.incrementCycle(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.incrementCycle(),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.incrementCycle(),searchtaskgang.TaskGang<String>.mCurrentCycle
+searchtaskgang.TaskGang.currentCycle(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.currentCycle(),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.currentCycle(),searchtaskgang.TaskGang<String>.mCurrentCycle
+searchtaskgang.TaskGang.getNextInput(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.initiateHook(int inputSize),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.initiateTaskGang(int inputSize),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.advanceTaskToNextCycle(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.awaitTasksDone(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.taskDone(int index),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.processInput(String inputData),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.run(),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.run(),searchtaskgang.TaskGang<String>
+searchtaskgang.TaskGang.makeTask(final int index),searchtaskgang.TaskGang
+searchtaskgang.TaskGang.makeTask(final int index),searchtaskgang.TaskGang<String>
+searchtaskgang.TestsToRun,searchtaskgang
+searchtaskgang.TestsToRun.ONESHOT_THREAD_PER_TASK,searchtaskgang.TestsToRun
+searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_SERVICE,searchtaskgang.TestsToRun
+searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_SERVICE_FUTURE,searchtaskgang.TestsToRun
+searchtaskgang.TestsToRun.ONESHOT_EXECUTOR_COMPLETION_SERVICE,searchtaskgang.TestsToRun
+searchtaskgang.Result,searchtaskgang
+searchtaskgang.Result.mIndex,searchtaskgang.Result
+searchtaskgang.Result.Result(int index),searchtaskgang.Result
+searchtaskgang.Result.Result(int index),searchtaskgang.Result.mIndex

@@ -1,0 +1,69 @@
+from,to
+Applications.Orig,Applications
+Applications.Orig.main(String... args),Applications.Orig
+Applications.Orig.main(String... args),One
+Applications.Orig.main(String... args),One.A
+Applications.Orig.main(String... args),One.B
+Applications.Orig.main(String... args),One.A.inc()
+Applications.Orig.main(String... args),One.A.add2()
+Applications.Orig.main(String... args),One.B.inc()
+Applications.Orig.main(String... args),One.B.add2()
+One.A,One
+One.A.a,One.A
+One.A.A(String x),One.A
+One.A.A(String x),One.A.a
+One.A.inc(),One.A
+One.A.inc(),One.A.a
+One.A.toString(),One.A
+One.A.toString(),One.A.a
+One.A.add2(),One.A
+One.A.add2(),One.A.inc()
+One.B,One
+One.B.b,One.A
+One.B.b,One
+One.B.b,One.B
+One.B.inc(),One.B
+One.B.inc(),One.A
+One.B.inc(),One.B.b
+One.B.inc(),One.A.inc()
+One.B.add2(),One.B
+One.B.add2(),One.A
+One.B.add2(),One.B.b
+One.B.add2(),One.A.add2()
+One.B.toString(),One.B
+One.B.toString(),One.A
+One.B.toString(),One.B.b
+One.B.toString(),One.A.toString()
+Applications.Orig.main(String... args),Two
+Applications.Orig.main(String... args),Two.A
+Applications.Orig.main(String... args),Two.B
+Applications.Orig.main(String... args),Two.A.inc()
+Applications.Orig.main(String... args),Two.A.add2()
+Applications.Orig.main(String... args),Two.B.inc()
+Applications.Orig.main(String... args),Two.B.add2()
+Two.A,Two
+Two.A.a,Two.A
+Two.A.A(String x),Two.A
+Two.A.A(String x),Two.A.a
+Two.A.inc(),Two.A
+Two.A.inc(),Two.A.a
+Two.A.toString(),Two.A
+Two.A.toString(),Two.A.a
+Two.A.add2(),Two.A
+Two.A.add2(),Two.A.inc()
+Two.B,Two
+Two.B.b,Two.A
+Two.B.b,Two
+Two.B.b,Two.B
+Two.B.inc(),Two.B
+Two.B.inc(),Two.A
+Two.B.inc(),Two.B.b
+Two.B.inc(),Two.A.inc()
+Two.B.add2(),Two.B
+Two.B.add2(),Two.A
+Two.B.add2(),Two.B.b
+Two.B.add2(),Two.A.add2()
+Two.B.toString(),Two.B
+Two.B.toString(),Two.A
+Two.B.toString(),Two.B.b
+Two.B.toString(),Two.A.toString()

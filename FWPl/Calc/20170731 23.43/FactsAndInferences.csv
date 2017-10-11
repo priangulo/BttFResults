@@ -1,0 +1,61 @@
+Identifier,TypeID,Type,Package,Class,Member,Feature,Is_fprivate?,Is_inferred?,Parent_features,Is_terminal?,Is_hook?,Inferences,User_comment,Member_modifier,Method_Signature,Earliest_bound,Latest_bound,CodeAnnotation,LOC,FWBelongLevel,NeedsLocalConstructor
+Application.Main,2,Class,Application,Main,,PLUGIN,TRUE,TRUE,,TRUE,FALSE,Application.Main; BttF says it's a child of Application THEN it also is fprivate of PLUGIN   ,,public ,,PLUGIN,PLUGIN,null,6,2,false
+Application,1,Package,Application,,,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,2,false
+Application.Main.main(String args[]),4,Method,Application,Main,main(String args[]),PLUGIN,TRUE,TRUE,,TRUE,FALSE,Application.Main.main(String args[]); BttF says it's a child of Application.Main THEN it also is fprivate of PLUGIN   ,,public static ,main(String[]),PLUGIN,PLUGIN,null,4,2,false
+BI.Calc,2,Class,BI,Calc,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,16,1,false
+BI,1,Package,BI,,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,1,false
+BI.Calc.zero,3,Field,BI,Calc,zero,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,final static ,,FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.value,3,Field,BI,Calc,value,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.sub(String n),4,Method,BI,Calc,sub(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,sub(String),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.mul(String n),4,Method,BI,Calc,mul(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,mul(String),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.add(String n),4,Method,BI,Calc,add(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,add(String),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.div(String n),4,Method,BI,Calc,div(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,div(String),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.get(),4,Method,BI,Calc,get(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,get(),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.set(String n),4,Method,BI,Calc,set(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,set(String),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Calc.clear(),4,Method,BI,Calc,clear(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,clear(),FRAMEWORK,PLUGIN,null,1,1,false
+BI.Gui,2,Class,BI,Gui,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,20,3,false
+BI.Gui.calc,3,Field,BI,Gui,calc,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Gui(String name),5,Constructor,BI,Gui,Gui(String name),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,BI.Gui.Gui(String name); BttF says it's a hook because it references declaration(s) classified in future features   ,,public ,Gui(String),FRAMEWORK,PLUGIN,null,5,1,false
+BI.Gui.initComponents(),4,Method,BI,Gui,initComponents(),PLUGIN,FALSE,TRUE,,TRUE,FALSE,BI.Gui.initComponents(); BttF says since it calls fprivate BI.Gui.Clear THEN it also belongs to PLUGIN   ,,,initComponents(),FRAMEWORK,PLUGIN,@SuppressWarnings("unchecked"),103,2,false
+BI.Gui.Result,3,Field,BI,Gui,Result,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Enter,3,Field,BI,Gui,Enter,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Clear,3,Field,BI,Gui,Clear,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Plus,3,Field,BI,Gui,Plus,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Minus,3,Field,BI,Gui,Minus,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Times,3,Field,BI,Gui,Times,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.Div,3,Field,BI,Gui,Div,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+BI.Gui.EnterActionPerformed(ActionEvent evt),4,Method,BI,Gui,EnterActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,BI.Gui.EnterActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,EnterActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,3,1,false
+BI.Gui.ClearActionPerformed(ActionEvent evt),4,Method,BI,Gui,ClearActionPerformed(ActionEvent evt),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,ClearActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,2,false
+BI.Gui.PlusActionPerformed(ActionEvent evt),4,Method,BI,Gui,PlusActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,BI.Gui.PlusActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,PlusActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false
+BI.Gui.MinusActionPerformed(ActionEvent evt),4,Method,BI,Gui,MinusActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,BI.Gui.MinusActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,MinusActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false
+BI.Gui.TimesActionPerformed(ActionEvent evt),4,Method,BI,Gui,TimesActionPerformed(ActionEvent evt),PLUGIN,FALSE,TRUE,,TRUE,FALSE,BI.Gui.TimesActionPerformed(ActionEvent evt); BttF says since it calls fprivate BI.Gui.Result THEN it also belongs to PLUGIN   ,,,TimesActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,2,false
+BI.Gui.DivActionPerformed(ActionEvent evt),4,Method,BI,Gui,DivActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,BI.Gui.DivActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,DivActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false
+BI.Gui.display(),4,Method,BI,Gui,display(),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,public ,display(),FRAMEWORK,PLUGIN,null,8,2,false
+D,1,Package,D,,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,1,false
+D.Gui,2,Class,D,Gui,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,20,3,false
+D.Gui.display(),4,Method,D,Gui,display(),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,public ,display(),FRAMEWORK,PLUGIN,null,8,2,false
+D.Calc,2,Class,D,Calc,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,22,1,false
+D.Calc.value,3,Field,D,Calc,value,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.add(String n),4,Method,D,Calc,add(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,add(String),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.clear(),4,Method,D,Calc,clear(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,clear(),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.div(String n),4,Method,D,Calc,div(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,div(String),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.get(),4,Method,D,Calc,get(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,get(),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.mul(String n),4,Method,D,Calc,mul(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,mul(String),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.set(String n),4,Method,D,Calc,set(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,set(String),FRAMEWORK,PLUGIN,null,1,1,false
+D.Calc.sub(String n),4,Method,D,Calc,sub(String n),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,sub(String),FRAMEWORK,PLUGIN,null,1,1,false
+D.Gui.calc,3,Field,D,Gui,calc,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Gui(String name),5,Constructor,D,Gui,Gui(String name),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,D.Gui.Gui(String name); BttF says it's a hook because it references declaration(s) classified in future features   ,,public ,Gui(String),FRAMEWORK,PLUGIN,null,5,1,false
+D.Gui.initComponents(),4,Method,D,Gui,initComponents(),PLUGIN,FALSE,TRUE,,TRUE,FALSE,D.Gui.initComponents(); BttF says since it calls fprivate D.Gui.Clear THEN it also belongs to PLUGIN   ,,,initComponents(),FRAMEWORK,PLUGIN,@SuppressWarnings("unchecked"),103,2,false
+D.Gui.Result,3,Field,D,Gui,Result,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Enter,3,Field,D,Gui,Enter,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Clear,3,Field,D,Gui,Clear,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Plus,3,Field,D,Gui,Plus,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Minus,3,Field,D,Gui,Minus,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Times,3,Field,D,Gui,Times,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.Div,3,Field,D,Gui,Div,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+D.Gui.EnterActionPerformed(ActionEvent evt),4,Method,D,Gui,EnterActionPerformed(ActionEvent evt),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,EnterActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,3,2,false
+D.Gui.ClearActionPerformed(ActionEvent evt),4,Method,D,Gui,ClearActionPerformed(ActionEvent evt),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,ClearActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,2,false
+D.Gui.PlusActionPerformed(ActionEvent evt),4,Method,D,Gui,PlusActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,D.Gui.PlusActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,PlusActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false
+D.Gui.MinusActionPerformed(ActionEvent evt),4,Method,D,Gui,MinusActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,D.Gui.MinusActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,MinusActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false
+D.Gui.TimesActionPerformed(ActionEvent evt),4,Method,D,Gui,TimesActionPerformed(ActionEvent evt),PLUGIN,FALSE,TRUE,,TRUE,FALSE,D.Gui.TimesActionPerformed(ActionEvent evt); BttF says since it calls fprivate D.Gui.Result THEN it also belongs to PLUGIN   ,,,TimesActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,2,false
+D.Gui.DivActionPerformed(ActionEvent evt),4,Method,D,Gui,DivActionPerformed(ActionEvent evt),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,D.Gui.DivActionPerformed(ActionEvent evt); BttF says it's hook because calls element(s) classified in future features   ,,,DivActionPerformed(ActionEvent),FRAMEWORK,PLUGIN,null,4,1,false

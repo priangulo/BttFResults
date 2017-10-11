@@ -1,0 +1,28 @@
+Identifier,TypeID,Type,Package,Class,Member,Feature,Is_fprivate?,Is_inferred?,Parent_features,Is_terminal?,Is_hook?,Inferences,User_comment,Member_modifier,Method_Signature,Earliest_bound,Latest_bound,CodeAnnotation,LOC,FWBelongLevel,NeedsLocalConstructor
+Applications.Orig,2,Class,Applications,Orig,,PLUGIN,TRUE,TRUE,,TRUE,FALSE,Applications.Orig; BttF says it's a child of Applications THEN it also is fprivate of PLUGIN   ,,public ,,PLUGIN,PLUGIN,null,27,2,false
+Applications,1,Package,Applications,,,PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,2,false
+Applications.Orig.main(String... args),4,Method,Applications,Orig,main(String... args),PLUGIN,TRUE,TRUE,,TRUE,FALSE,Applications.Orig.main(String... args); BttF says it's a child of Applications.Orig THEN it also is fprivate of PLUGIN   ,,public static ,main(String[]),PLUGIN,PLUGIN,null,19,2,false
+One,1,Package,One,,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,1,false
+One.A,2,Class,One,A,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,11,1,false
+One.B,2,Class,One,B,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,22,3,false
+One.A.inc(),4,Method,One,A,inc(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,inc(),FRAMEWORK,PLUGIN,null,1,1,false
+One.A.add2(),4,Method,One,A,add2(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,add2(),FRAMEWORK,PLUGIN,null,1,1,false
+One.B.inc(),4,Method,One,B,inc(),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,One.B.inc(); BttF says it's a hook because it references declaration(s) classified in future features   ,,public ,inc(),FRAMEWORK,PLUGIN,null,4,1,false
+One.B.add2(),4,Method,One,B,add2(),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,One.B.add2(); BttF says it's hook because calls element(s) classified in future features   ,,public ,add2(),FRAMEWORK,PLUGIN,null,4,1,false
+One.A.a,3,Field,One,A,a,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,1,false
+One.A.A(String x),5,Constructor,One,A,A(String x),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,A(String),FRAMEWORK,PLUGIN,null,1,1,false
+One.A.toString(),4,Method,One,A,toString(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,toString(),FRAMEWORK,PLUGIN,null,1,1,false
+One.B.b,3,Field,One,B,b,PLUGIN,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+One.B.toString(),4,Method,One,B,toString(),PLUGIN,TRUE,FALSE,,TRUE,FALSE,,,public ,toString(),FRAMEWORK,PLUGIN,null,6,2,false
+Two,1,Package,Two,,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,0,1,false
+Two.A,2,Class,Two,A,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,11,1,false
+Two.B,2,Class,Two,B,,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,,FRAMEWORK,PLUGIN,null,22,3,false
+Two.A.inc(),4,Method,Two,A,inc(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,inc(),FRAMEWORK,PLUGIN,null,1,1,false
+Two.A.add2(),4,Method,Two,A,add2(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,add2(),FRAMEWORK,PLUGIN,null,1,1,false
+Two.B.inc(),4,Method,Two,B,inc(),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,Two.B.inc(); BttF says it's a hook because it references declaration(s) classified in future features   ,,public ,inc(),FRAMEWORK,PLUGIN,null,4,1,false
+Two.B.add2(),4,Method,Two,B,add2(),FRAMEWORK,FALSE,FALSE,,TRUE,TRUE,Two.B.add2(); BttF says it's hook because calls element(s) classified in future features   ,,public ,add2(),FRAMEWORK,PLUGIN,null,4,1,false
+Two.A.a,3,Field,Two,A,a,FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,1,false
+Two.A.A(String x),5,Constructor,Two,A,A(String x),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,A(String),FRAMEWORK,PLUGIN,null,1,1,false
+Two.A.toString(),4,Method,Two,A,toString(),FRAMEWORK,FALSE,FALSE,,TRUE,FALSE,,,public ,toString(),FRAMEWORK,PLUGIN,null,1,1,false
+Two.B.b,3,Field,Two,B,b,PLUGIN,FALSE,FALSE,,TRUE,FALSE,,,,,FRAMEWORK,PLUGIN,null,1,2,false
+Two.B.toString(),4,Method,Two,B,toString(),PLUGIN,FALSE,FALSE,,TRUE,FALSE,,,public ,toString(),FRAMEWORK,PLUGIN,null,6,2,false

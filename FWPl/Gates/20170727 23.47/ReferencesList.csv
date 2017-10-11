@@ -1,0 +1,591 @@
+from,to
+Errors.NoValueSet,Errors
+Errors.NoValueSet.NoValueSet(String error),Errors.NoValueSet
+Errors.NoTableFound,Errors
+Errors.NoTableFound.NoTableFound(String error),Errors.NoTableFound
+Errors.PinAlreadySet,Errors
+Errors.PinAlreadySet.PinAlreadySet(String error),Errors.PinAlreadySet
+Errors.ValueAlreadySet,Errors
+Errors.ValueAlreadySet.ValueAlreadySet(String error),Errors.ValueAlreadySet
+Errors.NoPinFound,Errors
+Errors.NoPinFound.NoPinFound(String error),Errors.NoPinFound
+GatesApp.Main,GatesApp
+GatesApp.Main.main(String[] args),GatesApp.Main
+GatesApp.Main.main(String[] args),GatesApp.Main.aCircuit()
+GatesApp.Main.aCircuit(),GatesApp.Main
+GatesApp.Main.aCircuit(),GatesApp
+GatesApp.Main.aCircuit(),GatesApp.Value
+GatesApp.Main.aCircuit(),GatesApp.Value.TRUE
+GatesApp.Main.aCircuit(),GatesApp.Value.FALSE
+GatesApp.MainTest,GatesApp
+GatesApp.MainTest.MainTest(),GatesApp.MainTest
+GatesApp.MainTest.h2Example(),GatesApp.MainTest
+GatesApp.MainTest.h2Example(),GatesApp
+GatesApp.MainTest.h2Example(),GatesApp.Value
+GatesApp.MainTest.h2Example(),GatesApp.Value.TRUE
+GatesApp.MainTest.h2Example(),GatesApp.Value.FALSE
+GatesApp.MainTest.aEQb(),GatesApp.MainTest
+GatesApp.MainTest.aEQb(),GatesApp
+GatesApp.MainTest.aEQb(),GatesApp.Value
+GatesApp.MainTest.aEQb(),GatesApp.Value.TRUE
+GatesApp.MainTest.aEQb(),GatesApp.Value.FALSE
+GatesApp.MainTest.aNEb(),GatesApp.MainTest
+GatesApp.MainTest.aNEb(),GatesApp
+GatesApp.MainTest.aNEb(),GatesApp.Value
+GatesApp.MainTest.aNEb(),GatesApp.Value.TRUE
+GatesApp.MainTest.aNEb(),GatesApp.Value.FALSE
+GatesApp.Value,GatesApp
+GatesApp.Value.TRUE,GatesApp.Value
+GatesApp.Value.UNKNOWN,GatesApp.Value
+GatesApp.Value.FALSE,GatesApp.Value
+Pins.InputPin,Pins
+Pins.InputPin.name,Pins.InputPin
+Pins.InputPin.inputOf,Pins.InputPin
+Pins.InputPin.wireFrom,Pins.InputPin
+Pins.InputPin.InputPin(String name; Gate parent),Pins.InputPin
+Pins.InputPin.InputPin(String name; Gate parent),Pins.InputPin.name
+Pins.InputPin.InputPin(String name; Gate parent),Pins.InputPin.inputOf
+Pins.InputPin.InputPin(String name; Gate parent),Pins.InputPin.wireFrom
+Pins.InputPin.addWire(Wire w),Pins.InputPin
+Pins.InputPin.addWire(Wire w),Pins.InputPin.wireFrom
+Pins.InputPin.addWire(Wire w),Errors
+Pins.InputPin.addWire(Wire w),Errors.PinAlreadySet
+Pins.InputPin.addWire(Wire w),Pins.InputPin.name
+Pins.InputPin.addWire(Wire w),Pins.InputPin.inputOf
+Pins.InputPin.addWire(Wire w),Pins.OutputPin
+Pins.InputPin.addWire(Wire w),Pins.OutputPin.name
+Pins.InputPin.toString(),Pins.InputPin
+Pins.InputPin.toString(),Pins.InputPin.inputOf
+Pins.InputPin.toString(),Pins.InputPin.name
+Pins.InputPin.isUsed(),Pins.InputPin
+Pins.InputPin.isUsed(),Pins.InputPin.wireFrom
+Pins.InputPin.nameOfGate(),Pins.InputPin
+Pins.InputPin.nameOfGate(),Pins.InputPin.inputOf
+Pins.InputPin.getValue(),Pins.InputPin
+Pins.InputPin.getValue(),Pins.InputPin.wireFrom
+Pins.OutputPin,Pins
+Pins.OutputPin.value,Pins.OutputPin
+Pins.OutputPin.name,Pins.OutputPin
+Pins.OutputPin.outputOf,Pins.OutputPin
+Pins.OutputPin.wiresFrom,Pins.OutputPin
+Pins.OutputPin.OutputPin(String name; Gate parent),Pins.OutputPin
+Pins.OutputPin.OutputPin(String name; Gate parent),Pins.OutputPin.name
+Pins.OutputPin.OutputPin(String name; Gate parent),Pins.OutputPin.outputOf
+Pins.OutputPin.OutputPin(String name; Gate parent),Pins.OutputPin.wiresFrom
+Pins.OutputPin.OutputPin(String name; Gate parent),Pins.OutputPin.value
+Pins.OutputPin.OutputPin(String name; Gate parent),GatesApp
+Pins.OutputPin.OutputPin(String name; Gate parent),GatesApp.Value
+Pins.OutputPin.OutputPin(String name; Gate parent),GatesApp.Value.UNKNOWN
+Pins.OutputPin.addWire(Wire w),Pins.OutputPin
+Pins.OutputPin.addWire(Wire w),Pins.OutputPin.wiresFrom
+Pins.OutputPin.toString(),Pins.OutputPin
+Pins.OutputPin.toString(),Pins.OutputPin.outputOf
+Pins.OutputPin.toString(),Pins.OutputPin.name
+Pins.OutputPin.nameOfGate(),Pins.OutputPin
+Pins.OutputPin.nameOfGate(),Pins.OutputPin.outputOf
+Pins.OutputPin.isUsed(),Pins.OutputPin
+Pins.OutputPin.isUsed(),Pins.OutputPin.wiresFrom
+Pins.OutputPin.getValue(),Pins.OutputPin
+Pins.OutputPin.getValue(),Pins.OutputPin.outputOf
+GatesApp.MainTest.h2Example(),RegTest
+GatesApp.MainTest.h2Example(),RegTest.Utility
+GatesApp.MainTest.h2Example(),RegTest.Utility.init()
+GatesApp.MainTest.h2Example(),RegTest.Utility.redirectStdOut(String outputFile)
+GatesApp.MainTest.h2Example(),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest)
+GatesApp.MainTest.aEQb(),RegTest
+GatesApp.MainTest.aEQb(),RegTest.Utility
+GatesApp.MainTest.aEQb(),RegTest.Utility.init()
+GatesApp.MainTest.aEQb(),RegTest.Utility.redirectStdOut(String outputFile)
+GatesApp.MainTest.aEQb(),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest)
+GatesApp.MainTest.aNEb(),RegTest
+GatesApp.MainTest.aNEb(),RegTest.Utility
+GatesApp.MainTest.aNEb(),RegTest.Utility.init()
+GatesApp.MainTest.aNEb(),RegTest.Utility.redirectStdOut(String outputFile)
+GatesApp.MainTest.aNEb(),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest)
+RegTest.Utility,RegTest
+RegTest.Utility.autopsy,RegTest.Utility
+RegTest.Utility.Utility(),RegTest.Utility
+RegTest.Utility.sortFile(String inFileName; String outFileName; String[] eliminate),RegTest.Utility
+RegTest.Utility.compareFiles(String fileA; String fileB; String fileMsg; String[] eliminate),RegTest.Utility
+RegTest.Utility.compareFiles(String fileA; String fileB; String fileMsg; String[] eliminate),RegTest.Utility.autopsy
+RegTest.Utility.compareFiles(String fileA; String fileB; String fileMsg; String[] eliminate),RegTest.Utility.originalErr
+RegTest.Utility.originalOut,RegTest.Utility
+RegTest.Utility.originalErr,RegTest.Utility
+RegTest.Utility.outfile,RegTest.Utility
+RegTest.Utility.errfile,RegTest.Utility
+RegTest.Utility.init(),RegTest.Utility
+RegTest.Utility.init(),RegTest.Utility.originalOut
+RegTest.Utility.init(),RegTest.Utility.originalErr
+RegTest.Utility.init(),RegTest.Utility.outfile
+RegTest.Utility.init(),RegTest.Utility.errfile
+RegTest.Utility.redirectStdOut(String outputFile),RegTest.Utility
+RegTest.Utility.redirectStdOut(String outputFile),RegTest.Utility.originalOut
+RegTest.Utility.redirectStdOut(String outputFile),RegTest.Utility.outfile
+RegTest.Utility.redirectStdErr(String outputFile),RegTest.Utility
+RegTest.Utility.redirectStdErr(String outputFile),RegTest.Utility.originalErr
+RegTest.Utility.redirectStdErr(String outputFile),RegTest.Utility.errfile
+RegTest.Utility.sortedOut,RegTest.Utility
+RegTest.Utility.sortedCorrect,RegTest.Utility
+RegTest.Utility.done(),RegTest.Utility
+RegTest.Utility.done(),RegTest.Utility.outfile
+RegTest.Utility.done(),RegTest.Utility.errfile
+RegTest.Utility.done(),RegTest.Utility.originalOut
+RegTest.Utility.done(),RegTest.Utility.originalErr
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest),RegTest.Utility
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate)
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate),RegTest.Utility
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate),RegTest.Utility.sortedOut
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate),RegTest.Utility.sortedCorrect
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate),RegTest.Utility.sortFile(String inFileName; String outFileName; String[] eliminate)
+RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate),RegTest.Utility.compareFiles(String fileA; String fileB; String fileMsg; String[] eliminate)
+RegTest.Utility.validate(String outputFile; boolean sortedTest),RegTest.Utility
+RegTest.Utility.validate(String outputFile; boolean sortedTest),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest)
+RegTest.Utility.validate(String outputFile; boolean sortedTest; String[] eliminate),RegTest.Utility
+RegTest.Utility.validate(String outputFile; boolean sortedTest; String[] eliminate),RegTest.Utility.validate(String outputFile; String correctFile; boolean sortedTest; String[] eliminate)
+GatesApp.Main.aCircuit(),logicGates
+GatesApp.Main.aCircuit(),logicGates.Gate
+GatesApp.Main.aCircuit(),logicGates.InputPort
+GatesApp.Main.aCircuit(),logicGates.OutputPort
+GatesApp.Main.aCircuit(),logicGates.Not
+GatesApp.Main.aCircuit(),logicGates.And
+GatesApp.Main.aCircuit(),logicGates.Or
+GatesApp.Main.aCircuit(),logicGates.Wire
+GatesApp.Main.aCircuit(),logicGates.Gate.resetDB()
+GatesApp.Main.aCircuit(),logicGates.Gate.printDB()
+GatesApp.Main.aCircuit(),logicGates.Gate.verify()
+GatesApp.Main.aCircuit(),logicGates.InputPort.setValue(int v)
+GatesApp.Main.aCircuit(),logicGates.OutputPort.getValue()
+GatesApp.MainTest.h2Example(),logicGates
+GatesApp.MainTest.h2Example(),logicGates.InputPort
+GatesApp.MainTest.h2Example(),logicGates.OutputPort
+GatesApp.MainTest.h2Example(),logicGates.Or
+GatesApp.MainTest.h2Example(),logicGates.And
+GatesApp.MainTest.h2Example(),logicGates.Gate
+GatesApp.MainTest.h2Example(),logicGates.Wire
+GatesApp.MainTest.h2Example(),logicGates.Gate.resetDB()
+GatesApp.MainTest.h2Example(),logicGates.Gate.printDB()
+GatesApp.MainTest.h2Example(),logicGates.Gate.verify()
+GatesApp.MainTest.h2Example(),logicGates.InputPort.setValue(int v)
+GatesApp.MainTest.h2Example(),logicGates.OutputPort.getValue()
+GatesApp.MainTest.aEQb(),logicGates
+GatesApp.MainTest.aEQb(),logicGates.InputPort
+GatesApp.MainTest.aEQb(),logicGates.OutputPort
+GatesApp.MainTest.aEQb(),logicGates.And
+GatesApp.MainTest.aEQb(),logicGates.Or
+GatesApp.MainTest.aEQb(),logicGates.Not
+GatesApp.MainTest.aEQb(),logicGates.Gate
+GatesApp.MainTest.aEQb(),logicGates.Wire
+GatesApp.MainTest.aEQb(),logicGates.Gate.resetDB()
+GatesApp.MainTest.aEQb(),logicGates.Gate.printDB()
+GatesApp.MainTest.aEQb(),logicGates.Gate.verify()
+GatesApp.MainTest.aEQb(),logicGates.InputPort.setValue(int v)
+GatesApp.MainTest.aEQb(),logicGates.OutputPort.getValue()
+GatesApp.MainTest.aNEb(),logicGates
+GatesApp.MainTest.aNEb(),logicGates.Gate
+GatesApp.MainTest.aNEb(),logicGates.InputPort
+GatesApp.MainTest.aNEb(),logicGates.OutputPort
+GatesApp.MainTest.aNEb(),logicGates.Not
+GatesApp.MainTest.aNEb(),logicGates.And
+GatesApp.MainTest.aNEb(),logicGates.Or
+GatesApp.MainTest.aNEb(),logicGates.Wire
+GatesApp.MainTest.aNEb(),logicGates.Gate.resetDB()
+GatesApp.MainTest.aNEb(),logicGates.Gate.printDB()
+GatesApp.MainTest.aNEb(),logicGates.Gate.verify()
+GatesApp.MainTest.aNEb(),logicGates.InputPort.setValue(int v)
+GatesApp.MainTest.aNEb(),logicGates.OutputPort.getValue()
+Pins.InputPin.inputOf,logicGates
+Pins.InputPin.inputOf,logicGates.Gate
+Pins.InputPin.inputOf,logicGates.Printable
+logicGates.Gate.print(String gateType),logicGates.Printable.print(String ttype)
+logicGates.Gate.print(String gateType),logicGates.Printable
+Pins.InputPin.wireFrom,logicGates
+Pins.InputPin.wireFrom,logicGates.Wire
+Pins.InputPin.wireFrom,logicGates.Printable
+logicGates.Wire.print(String x),logicGates.Printable.print(String ttype)
+logicGates.Wire.print(String x),logicGates.Printable
+Pins.InputPin.InputPin(String name; Gate parent),logicGates.Gate
+Pins.InputPin.InputPin(String name; Gate parent),logicGates
+Pins.InputPin.InputPin(String name; Gate parent),logicGates.Wire
+Pins.InputPin.addWire(Wire w),logicGates.Wire
+Pins.InputPin.addWire(Wire w),logicGates
+Pins.InputPin.addWire(Wire w),logicGates.Gate
+Pins.InputPin.addWire(Wire w),logicGates.Gate.name
+Pins.InputPin.addWire(Wire w),logicGates.Wire.o
+Pins.InputPin.toString(),logicGates.Gate
+Pins.InputPin.toString(),logicGates.Gate.name
+Pins.InputPin.isUsed(),logicGates.Wire
+Pins.InputPin.nameOfGate(),logicGates.Gate
+Pins.InputPin.nameOfGate(),logicGates.Gate.name
+Pins.InputPin.getValue(),logicGates.Wire
+Pins.InputPin.getValue(),logicGates.Wire.getValue()
+Pins.OutputPin.outputOf,logicGates
+Pins.OutputPin.outputOf,logicGates.Gate
+Pins.OutputPin.outputOf,logicGates.Printable
+Pins.OutputPin.wiresFrom,logicGates
+Pins.OutputPin.wiresFrom,logicGates.Wire
+Pins.OutputPin.OutputPin(String name; Gate parent),logicGates.Gate
+Pins.OutputPin.OutputPin(String name; Gate parent),logicGates
+Pins.OutputPin.OutputPin(String name; Gate parent),logicGates.Wire
+Pins.OutputPin.addWire(Wire w),logicGates.Wire
+Pins.OutputPin.addWire(Wire w),logicGates
+Pins.OutputPin.toString(),logicGates.Gate
+Pins.OutputPin.toString(),logicGates.Gate.name
+Pins.OutputPin.nameOfGate(),logicGates.Gate
+Pins.OutputPin.nameOfGate(),logicGates.Gate.name
+Pins.OutputPin.getValue(),logicGates.Gate
+Pins.OutputPin.getValue(),logicGates.Gate.getValue()
+logicGates.Wire,logicGates
+logicGates.Wire,logicGates.Printable
+logicGates.Wire.i,Pins
+logicGates.Wire.i,Pins.InputPin
+logicGates.Wire.i,logicGates.Wire
+logicGates.Wire.o,Pins
+logicGates.Wire.o,Pins.OutputPin
+logicGates.Wire.o,logicGates.Wire
+logicGates.Wire.Wire(OutputPin o; InputPin i),logicGates.Wire
+logicGates.Wire.Wire(OutputPin o; InputPin i),Pins.OutputPin
+logicGates.Wire.Wire(OutputPin o; InputPin i),Pins.InputPin
+logicGates.Wire.Wire(OutputPin o; InputPin i),Pins
+logicGates.Wire.Wire(OutputPin o; InputPin i),logicGates.Wire.i
+logicGates.Wire.Wire(OutputPin o; InputPin i),logicGates.Wire.o
+logicGates.Wire.Wire(OutputPin o; InputPin i),logicGates.Wire.table
+logicGates.Wire.Wire(OutputPin o; InputPin i),Pins.InputPin.addWire(Wire w)
+logicGates.Wire.Wire(OutputPin o; InputPin i),Pins.OutputPin.addWire(Wire w)
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates.Wire
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates.InputPort
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates.Gate
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates.InputPort.getOutput()
+logicGates.Wire.Wire(InputPort o; Gate i; String name),logicGates.Gate.getInput(String name)
+logicGates.Wire.Wire(Gate from; String frompin; Gate to; String topin),logicGates.Wire
+logicGates.Wire.Wire(Gate from; String frompin; Gate to; String topin),logicGates.Gate
+logicGates.Wire.Wire(Gate from; String frompin; Gate to; String topin),logicGates
+logicGates.Wire.Wire(Gate from; String frompin; Gate to; String topin),logicGates.Gate.getOutput(String name)
+logicGates.Wire.Wire(Gate from; String frompin; Gate to; String topin),logicGates.Gate.getInput(String name)
+logicGates.Wire.Wire(Gate from; Gate to; String topin),logicGates.Wire
+logicGates.Wire.Wire(Gate from; Gate to; String topin),logicGates.Gate
+logicGates.Wire.Wire(Gate from; Gate to; String topin),logicGates
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates.Wire
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates.Gate
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates.OutputPort
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates.Gate.getOutput(String name)
+logicGates.Wire.Wire(Gate from; OutputPort port),logicGates.OutputPort.getInput()
+logicGates.Wire.print(String x),logicGates.Wire
+logicGates.Wire.print(String x),Pins.OutputPin
+logicGates.Wire.print(String x),logicGates.Wire.o
+logicGates.Wire.print(String x),Pins.InputPin
+logicGates.Wire.print(String x),logicGates.Wire.i
+logicGates.Wire.table,logicGates
+logicGates.Wire.table,logicGates.Wire
+logicGates.Wire.resetTable(),logicGates.Wire
+logicGates.Wire.resetTable(),logicGates.Wire.table
+logicGates.Wire.resetTable(),logicGates
+logicGates.Wire.getTable(),logicGates.Wire
+logicGates.Wire.getTable(),logicGates
+logicGates.Wire.getTable(),logicGates.Wire.table
+logicGates.Wire.isUsed(),logicGates.Wire
+logicGates.Wire.isUsed(),Pins.InputPin
+logicGates.Wire.isUsed(),logicGates.Wire.i
+logicGates.Wire.isUsed(),Pins.OutputPin
+logicGates.Wire.isUsed(),logicGates.Wire.o
+logicGates.Wire.isUsed(),Pins.InputPin.isUsed()
+logicGates.Wire.isUsed(),Pins.OutputPin.isUsed()
+logicGates.Wire.verify(),logicGates.Wire
+logicGates.Wire.verify(),logicGates
+logicGates.Wire.verify(),logicGates.Wire.table
+logicGates.Wire.verify(),logicGates.Wire.isUsed()
+logicGates.Wire.getValue(),logicGates.Wire
+logicGates.Wire.getValue(),Pins.OutputPin
+logicGates.Wire.getValue(),logicGates.Wire.o
+logicGates.Wire.getValue(),Pins.OutputPin.getValue()
+logicGates.Or,logicGates
+logicGates.Or,logicGates.Gate
+logicGates.Or.Or(String name),logicGates.Gate.Gate(String name)
+logicGates.Or.Or(String name),logicGates.Gate
+logicGates.Or.getValue(),logicGates.Gate.getValue()
+logicGates.Or.getValue(),logicGates.Gate
+logicGates.Or.i1,Pins
+logicGates.Or.i1,Pins.InputPin
+logicGates.Or.i1,logicGates.Or
+logicGates.Or.i2,Pins
+logicGates.Or.i2,Pins.InputPin
+logicGates.Or.i2,logicGates.Or
+logicGates.Or.Or(String name),logicGates.Or
+logicGates.Or.Or(String name),Pins.InputPin
+logicGates.Or.Or(String name),logicGates.Or.i1
+logicGates.Or.Or(String name),Pins
+logicGates.Or.Or(String name),logicGates.Or.i2
+logicGates.Or.Or(String name),logicGates.Gate.inputs
+logicGates.Or.Or(String name),Pins.OutputPin
+logicGates.Or.Or(String name),logicGates.Gate.outputs
+logicGates.Or.Or(String name),logicGates.Or.table
+logicGates.Or.table,logicGates
+logicGates.Or.table,logicGates.Or
+logicGates.Or.resetTable(),logicGates.Or
+logicGates.Or.resetTable(),logicGates.Or.table
+logicGates.Or.resetTable(),logicGates
+logicGates.Or.getTable(),logicGates.Or
+logicGates.Or.getTable(),logicGates
+logicGates.Or.getTable(),logicGates.Or.table
+logicGates.Or.getValue(),logicGates.Or
+logicGates.Or.getValue(),Pins.InputPin
+logicGates.Or.getValue(),logicGates.Or.i1
+logicGates.Or.getValue(),logicGates.Or.i2
+logicGates.Or.getValue(),GatesApp
+logicGates.Or.getValue(),GatesApp.Value
+logicGates.Or.getValue(),GatesApp.Value.TRUE
+logicGates.Or.getValue(),GatesApp.Value.FALSE
+logicGates.Or.getValue(),Pins.InputPin.getValue()
+logicGates.And,logicGates
+logicGates.And,logicGates.Gate
+logicGates.And.And(String name),logicGates.Gate.Gate(String name)
+logicGates.And.And(String name),logicGates.Gate
+logicGates.And.getValue(),logicGates.Gate.getValue()
+logicGates.And.getValue(),logicGates.Gate
+logicGates.And.i1,Pins
+logicGates.And.i1,Pins.InputPin
+logicGates.And.i1,logicGates.And
+logicGates.And.i2,Pins
+logicGates.And.i2,Pins.InputPin
+logicGates.And.i2,logicGates.And
+logicGates.And.o,Pins
+logicGates.And.o,Pins.OutputPin
+logicGates.And.o,logicGates.And
+logicGates.And.And(String name),logicGates.And
+logicGates.And.And(String name),Pins.InputPin
+logicGates.And.And(String name),logicGates.And.i1
+logicGates.And.And(String name),Pins
+logicGates.And.And(String name),logicGates.And.i2
+logicGates.And.And(String name),logicGates.Gate.inputs
+logicGates.And.And(String name),Pins.OutputPin
+logicGates.And.And(String name),logicGates.And.o
+logicGates.And.And(String name),logicGates.Gate.outputs
+logicGates.And.And(String name),logicGates.And.table
+logicGates.And.table,logicGates
+logicGates.And.table,logicGates.Gate
+logicGates.And.table,logicGates.And
+logicGates.And.resetTable(),logicGates.And
+logicGates.And.resetTable(),logicGates.And.table
+logicGates.And.resetTable(),logicGates
+logicGates.And.resetTable(),logicGates.Gate
+logicGates.And.getTable(),logicGates.And
+logicGates.And.getTable(),logicGates
+logicGates.And.getTable(),logicGates.Gate
+logicGates.And.getTable(),logicGates.And.table
+logicGates.And.getValue(),logicGates.And
+logicGates.And.getValue(),Pins.InputPin
+logicGates.And.getValue(),logicGates.And.i1
+logicGates.And.getValue(),logicGates.And.i2
+logicGates.And.getValue(),GatesApp
+logicGates.And.getValue(),GatesApp.Value
+logicGates.And.getValue(),GatesApp.Value.TRUE
+logicGates.And.getValue(),GatesApp.Value.FALSE
+logicGates.And.getValue(),Pins.InputPin.getValue()
+logicGates.Gate,logicGates
+logicGates.Gate,logicGates.Printable
+logicGates.Gate.name,logicGates.Gate
+logicGates.Gate.inputs,Pins
+logicGates.Gate.inputs,Pins.InputPin
+logicGates.Gate.inputs,logicGates.Gate
+logicGates.Gate.outputs,Pins
+logicGates.Gate.outputs,Pins.OutputPin
+logicGates.Gate.outputs,logicGates.Gate
+logicGates.Gate.Gate(String name),logicGates.Gate
+logicGates.Gate.Gate(String name),logicGates.Gate.name
+logicGates.Gate.Gate(String name),logicGates.Gate.inputs
+logicGates.Gate.Gate(String name),Pins
+logicGates.Gate.Gate(String name),Pins.InputPin
+logicGates.Gate.Gate(String name),logicGates.Gate.outputs
+logicGates.Gate.Gate(String name),Pins.OutputPin
+logicGates.Gate.getInput(String name),logicGates.Gate
+logicGates.Gate.getInput(String name),Pins.InputPin
+logicGates.Gate.getInput(String name),Pins
+logicGates.Gate.getInput(String name),logicGates.Gate.inputs
+logicGates.Gate.getInput(String name),Errors
+logicGates.Gate.getInput(String name),Errors.NoPinFound
+logicGates.Gate.getInput(String name),logicGates.Gate.name
+logicGates.Gate.getOutput(String name),logicGates.Gate
+logicGates.Gate.getOutput(String name),Pins.OutputPin
+logicGates.Gate.getOutput(String name),Pins
+logicGates.Gate.getOutput(String name),logicGates.Gate.outputs
+logicGates.Gate.getOutput(String name),Errors
+logicGates.Gate.getOutput(String name),Errors.NoPinFound
+logicGates.Gate.getOutput(String name),logicGates.Gate.name
+logicGates.Gate.print(String gateType),logicGates.Gate
+logicGates.Gate.print(String gateType),logicGates.Gate.name
+logicGates.Gate.print(String gateType),Pins
+logicGates.Gate.print(String gateType),Pins.InputPin
+logicGates.Gate.print(String gateType),logicGates.Gate.inputs
+logicGates.Gate.print(String gateType),Pins.OutputPin
+logicGates.Gate.print(String gateType),logicGates.Gate.outputs
+logicGates.Gate.resetDB(),logicGates.Gate
+logicGates.Gate.resetDB(),logicGates
+logicGates.Gate.resetDB(),logicGates.And
+logicGates.Gate.resetDB(),logicGates.Not
+logicGates.Gate.resetDB(),logicGates.Or
+logicGates.Gate.resetDB(),logicGates.Wire
+logicGates.Gate.resetDB(),logicGates.InputPort
+logicGates.Gate.resetDB(),logicGates.OutputPort
+logicGates.Gate.resetDB(),logicGates.And.resetTable()
+logicGates.Gate.resetDB(),logicGates.Not.resetTable()
+logicGates.Gate.resetDB(),logicGates.Or.resetTable()
+logicGates.Gate.resetDB(),logicGates.Wire.resetTable()
+logicGates.Gate.resetDB(),logicGates.InputPort.resetTable()
+logicGates.Gate.resetDB(),logicGates.OutputPort.resetTable()
+logicGates.Gate.printDB(),logicGates.Gate
+logicGates.Gate.printDB(),logicGates
+logicGates.Gate.printDB(),logicGates.And
+logicGates.Gate.printDB(),logicGates.Or
+logicGates.Gate.printDB(),logicGates.Not
+logicGates.Gate.printDB(),logicGates.Wire
+logicGates.Gate.printDB(),logicGates.InputPort
+logicGates.Gate.printDB(),logicGates.OutputPort
+logicGates.Gate.printDB(),logicGates.And.getTable()
+logicGates.Gate.printDB(),logicGates.Or.getTable()
+logicGates.Gate.printDB(),logicGates.Not.getTable()
+logicGates.Gate.printDB(),logicGates.Wire.getTable()
+logicGates.Gate.printDB(),logicGates.InputPort.getTable()
+logicGates.Gate.printDB(),logicGates.OutputPort.getTable()
+logicGates.Gate.printTable(String ttype; LinkedList<G> t),logicGates.Gate
+logicGates.Gate.printTable(String ttype; LinkedList<G> t),logicGates
+logicGates.Gate.printTable(String ttype; LinkedList<G> t),logicGates.Printable
+logicGates.Gate.printTable(String ttype; LinkedList<G> t),logicGates.Printable.print(String ttype)
+logicGates.Gate.extra(),logicGates.Gate
+logicGates.Gate.allInputsUsed(),logicGates.Gate
+logicGates.Gate.allInputsUsed(),logicGates.Gate.inputs
+logicGates.Gate.allInputsUsed(),Pins
+logicGates.Gate.allInputsUsed(),Pins.InputPin
+logicGates.Gate.allInputsUsed(),Pins.InputPin.name
+logicGates.Gate.allInputsUsed(),Pins.InputPin.isUsed()
+logicGates.Gate.allInputsUsed(),Pins.InputPin.nameOfGate()
+logicGates.Gate.allOutputsUsed(),logicGates.Gate
+logicGates.Gate.allOutputsUsed(),logicGates.Gate.outputs
+logicGates.Gate.allOutputsUsed(),Pins
+logicGates.Gate.allOutputsUsed(),Pins.OutputPin
+logicGates.Gate.allOutputsUsed(),Pins.OutputPin.name
+logicGates.Gate.allOutputsUsed(),Pins.OutputPin.isUsed()
+logicGates.Gate.allOutputsUsed(),Pins.OutputPin.nameOfGate()
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates.Gate
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates.Gate.name
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates.Gate.allInputsUsed()
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates.Gate.allOutputsUsed()
+logicGates.Gate.verify(String label; LinkedList<G> table),logicGates.Gate.extra()
+logicGates.Gate.verify(),logicGates.Gate
+logicGates.Gate.verify(),logicGates
+logicGates.Gate.verify(),logicGates.And
+logicGates.Gate.verify(),logicGates.Not
+logicGates.Gate.verify(),logicGates.Or
+logicGates.Gate.verify(),logicGates.InputPort
+logicGates.Gate.verify(),logicGates.Wire
+logicGates.Gate.verify(),logicGates.And.getTable()
+logicGates.Gate.verify(),logicGates.Not.getTable()
+logicGates.Gate.verify(),logicGates.Or.getTable()
+logicGates.Gate.verify(),logicGates.InputPort.getTable()
+logicGates.Gate.verify(),logicGates.Wire.verify()
+logicGates.Gate.getValue(),logicGates.Gate
+logicGates.OutputPort,logicGates
+logicGates.OutputPort,logicGates.Gate
+logicGates.OutputPort.OutputPort(String name),logicGates.Gate.Gate(String name)
+logicGates.OutputPort.OutputPort(String name),logicGates.Gate
+logicGates.OutputPort.getValue(),logicGates.Gate.getValue()
+logicGates.OutputPort.getValue(),logicGates.Gate
+logicGates.OutputPort.OutputPort(String name),logicGates.OutputPort
+logicGates.OutputPort.OutputPort(String name),Pins
+logicGates.OutputPort.OutputPort(String name),Pins.InputPin
+logicGates.OutputPort.OutputPort(String name),logicGates.Gate.inputs
+logicGates.OutputPort.OutputPort(String name),logicGates.OutputPort.table
+logicGates.OutputPort.getInput(),logicGates.OutputPort
+logicGates.OutputPort.getInput(),Pins.InputPin
+logicGates.OutputPort.getInput(),Pins
+logicGates.OutputPort.getInput(),logicGates.Gate
+logicGates.OutputPort.getInput(),logicGates.Gate.inputs
+logicGates.OutputPort.table,logicGates
+logicGates.OutputPort.table,logicGates.Gate
+logicGates.OutputPort.table,logicGates.OutputPort
+logicGates.OutputPort.resetTable(),logicGates.OutputPort
+logicGates.OutputPort.resetTable(),logicGates.OutputPort.table
+logicGates.OutputPort.resetTable(),logicGates
+logicGates.OutputPort.resetTable(),logicGates.Gate
+logicGates.OutputPort.getTable(),logicGates.OutputPort
+logicGates.OutputPort.getTable(),logicGates
+logicGates.OutputPort.getTable(),logicGates.Gate
+logicGates.OutputPort.getTable(),logicGates.OutputPort.table
+logicGates.OutputPort.getValue(),logicGates.OutputPort
+logicGates.OutputPort.getValue(),Pins.InputPin
+logicGates.OutputPort.getValue(),Pins.InputPin.getValue()
+logicGates.OutputPort.getValue(),logicGates.OutputPort.getInput()
+logicGates.Printable,logicGates
+logicGates.Printable.print(String ttype),logicGates.Printable
+logicGates.Not,logicGates
+logicGates.Not,logicGates.Gate
+logicGates.Not.Not(String name),logicGates.Gate.Gate(String name)
+logicGates.Not.Not(String name),logicGates.Gate
+logicGates.Not.getValue(),logicGates.Gate.getValue()
+logicGates.Not.getValue(),logicGates.Gate
+logicGates.Not.i1,Pins
+logicGates.Not.i1,Pins.InputPin
+logicGates.Not.i1,logicGates.Not
+logicGates.Not.Not(String name),logicGates.Not
+logicGates.Not.Not(String name),Pins.InputPin
+logicGates.Not.Not(String name),logicGates.Not.i1
+logicGates.Not.Not(String name),Pins
+logicGates.Not.Not(String name),logicGates.Gate.inputs
+logicGates.Not.Not(String name),Pins.OutputPin
+logicGates.Not.Not(String name),logicGates.Gate.outputs
+logicGates.Not.Not(String name),logicGates.Not.table
+logicGates.Not.table,logicGates
+logicGates.Not.table,logicGates.Not
+logicGates.Not.resetTable(),logicGates.Not
+logicGates.Not.resetTable(),logicGates.Not.table
+logicGates.Not.resetTable(),logicGates
+logicGates.Not.getTable(),logicGates.Not
+logicGates.Not.getTable(),logicGates
+logicGates.Not.getTable(),logicGates.Not.table
+logicGates.Not.getValue(),logicGates.Not
+logicGates.Not.getValue(),Pins.InputPin
+logicGates.Not.getValue(),logicGates.Not.i1
+logicGates.Not.getValue(),GatesApp
+logicGates.Not.getValue(),GatesApp.Value
+logicGates.Not.getValue(),GatesApp.Value.TRUE
+logicGates.Not.getValue(),GatesApp.Value.FALSE
+logicGates.Not.getValue(),Pins.InputPin.getValue()
+logicGates.InputPort,logicGates
+logicGates.InputPort,logicGates.Gate
+logicGates.InputPort.InputPort(String name),logicGates.Gate.Gate(String name)
+logicGates.InputPort.InputPort(String name),logicGates.Gate
+logicGates.InputPort.getValue(),logicGates.Gate.getValue()
+logicGates.InputPort.getValue(),logicGates.Gate
+logicGates.InputPort.InputPort(String name),logicGates.InputPort
+logicGates.InputPort.InputPort(String name),Pins
+logicGates.InputPort.InputPort(String name),Pins.OutputPin
+logicGates.InputPort.InputPort(String name),logicGates.Gate.outputs
+logicGates.InputPort.InputPort(String name),logicGates.InputPort.table
+logicGates.InputPort.getOutput(),logicGates.InputPort
+logicGates.InputPort.getOutput(),Pins.OutputPin
+logicGates.InputPort.getOutput(),Pins
+logicGates.InputPort.getOutput(),logicGates.Gate
+logicGates.InputPort.getOutput(),logicGates.Gate.outputs
+logicGates.InputPort.table,logicGates
+logicGates.InputPort.table,logicGates.Gate
+logicGates.InputPort.table,logicGates.InputPort
+logicGates.InputPort.resetTable(),logicGates.InputPort
+logicGates.InputPort.resetTable(),logicGates.InputPort.table
+logicGates.InputPort.resetTable(),logicGates
+logicGates.InputPort.resetTable(),logicGates.Gate
+logicGates.InputPort.getTable(),logicGates.InputPort
+logicGates.InputPort.getTable(),logicGates
+logicGates.InputPort.getTable(),logicGates.Gate
+logicGates.InputPort.getTable(),logicGates.InputPort.table
+logicGates.InputPort.value,logicGates.InputPort
+logicGates.InputPort.setValue(int v),logicGates.InputPort
+logicGates.InputPort.setValue(int v),logicGates.InputPort.value
+logicGates.InputPort.getValue(),logicGates.InputPort
+logicGates.InputPort.getValue(),logicGates.InputPort.value
+logicGates.InputPort.getValue(),GatesApp
+logicGates.InputPort.getValue(),GatesApp.Value
+logicGates.InputPort.getValue(),GatesApp.Value.UNKNOWN
+logicGates.InputPort.getValue(),Errors
+logicGates.InputPort.getValue(),Errors.NoValueSet
+logicGates.InputPort.getValue(),logicGates.Gate.name

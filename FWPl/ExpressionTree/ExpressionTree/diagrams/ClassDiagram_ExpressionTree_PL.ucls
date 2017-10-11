@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="false" router="FAN">  
+  <class id="1" language="java" name="com.example.expressiontree_plugin.VisitorFactory" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/VisitorFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="286" x="84" y="2707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.example.expressiontree_plugin.CommandLinePlatform" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/CommandLinePlatform.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="159" x="507" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.example.expressiontree_plugin.MainActivity" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="159" x="1331" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.example.expressiontree_plugin.MainConsole" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/MainConsole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="159" x="837" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.example.expressiontree_plugin.PostOrderInitializedState" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/PostOrderInitializedState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="166" x="557" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.example.expressiontree_plugin.AndroidPlatform" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/AndroidPlatform.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="441" width="219" x="922" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.example.expressiontree_plugin.PlatformFactory" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/PlatformFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="304" x="837" y="1228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.example.expressiontree_plugin.CalculatorGUISuccinct" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/CalculatorGUISuccinct.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="159" x="1151" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.example.expressiontree_plugin.CalculatorGUIVerbose" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/CalculatorGUIVerbose.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="657" width="164" x="1331" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.example.expressiontree_plugin.UserCommandFactory" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/UserCommandFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="342" x="1293" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.example.expressiontree_plugin.LevelOrderInitializedState" 
+    project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/LevelOrderInitializedState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="170" x="84" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.example.expressiontree_plugin.PostOrderUninitializedState" 
+    project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/PostOrderUninitializedState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="181" x="557" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.example.expressiontree_plugin.State" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="166" x="84" y="2414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.example.expressiontree_plugin.InOrderUninitializedState" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/InOrderUninitializedState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="165" x="778" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.example.expressiontree_plugin.Options" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/Options.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="159" x="237" y="1228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" 
+    name="com.example.expressiontree_plugin.UserCommandFactory.IUserCommandFactoryCommand" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/UserCommandFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="212" x="1423" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="17" language="java" name="com.example.expressiontree_plugin.TreeOps" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/TreeOps.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="159" x="744" y="2414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.example.expressiontree_plugin.VerboseModeInputHandler" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/VerboseModeInputHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="174" x="1440" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.example.expressiontree_plugin.PreOrderUninitializedState" 
+    project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/PreOrderUninitializedState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="175" x="321" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.example.expressiontree_plugin.UninitializedStateFactory" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/UninitializedStateFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="245" x="446" y="1228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.example.expressiontree_plugin.InOrderInitializedState" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/InOrderInitializedState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="159" x="784" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.example.expressiontree_plugin.QuitCommand" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/QuitCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="159" x="1224" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.example.expressiontree_plugin.SuccinctModeInputHandler" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/SuccinctModeInputHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="177" x="1223" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.example.expressiontree_plugin.InputDispatcher" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/InputDispatcher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="180" x="1656" y="2414"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.example.expressiontree_plugin.UninitializedState" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/UninitializedState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="267" x="158" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="com.example.expressiontree_plugin.PlatformFactory.IPlatformFactoryCommand" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/PlatformFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="176" x="706" y="1583"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="com.example.expressiontree_plugin.PreOrderInitializedState" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/PreOrderInitializedState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="160" x="315" y="2257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="com.example.expressiontree_plugin.AndroidPlatform.CommandMenu" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/AndroidPlatform.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="159" x="983" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="com.example.expressiontree_plugin.LevelOrderUninitializedState" 
+    project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/LevelOrderUninitializedState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="185" x="96" y="2064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.example.expressiontree_plugin.InputHandler" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/InputHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="245" x="1331" y="1228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.example.expressiontree_plugin.Factory" project="ExpressionTree" 
+    file="/ExpressionTree/src/com/example/expressiontree_plugin/Factory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="159" x="587" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="32" language="java" name="com.example.expressiontree_plugin.VisitorFactory.IVisitorFactoryCommand" 
+    project="ExpressionTree" file="/ExpressionTree/src/com/example/expressiontree_plugin/VisitorFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="164" x="84" y="2864"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <generalization id="35">    
+    <bendpoint x="53" y="2064"/>    
+    <bendpoint x="53" y="2257"/>    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="37">    
+    <bendpoint x="505" y="2257"/>    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="39">    
+    <bendpoint x="476" y="1583"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="32"/>  
+  </dependency>  
+  <association id="41">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="42" name="uninitializedStateFactory"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <dependency id="47">    
+    <bendpoint x="455" y="1583"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="1340" y="194"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="29"/>  
+  </generalization>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="52">    
+    <bendpoint x="1644" y="1583"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="53" name="userCommandFactory"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <dependency id="58">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="59">    
+    <bendpoint x="127" y="1583"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="61">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <dependency id="62">    
+    <bendpoint x="32" y="1583"/>    
+    <bendpoint x="32" y="2064"/>    
+    <bendpoint x="32" y="2257"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="63">    
+    <bendpoint x="1192" y="1583"/>    
+    <bendpoint x="1172" y="2064"/>    
+    <bendpoint x="1151" y="2257"/>    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="64" name="treeOps"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="703" y="531"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="68">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="69">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="70" name="uniqueInstance"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="72">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <generalization id="76">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <dependency id="78">    
+    <bendpoint x="1686" y="1228"/>    
+    <bendpoint x="1686" y="1583"/>    
+    <bendpoint x="1686" y="2064"/>    
+    <bendpoint x="1686" y="2257"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="79">    
+    <bendpoint x="1026" y="531"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="80">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <dependency id="82">    
+    <bendpoint x="1171" y="1228"/>    
+    <bendpoint x="1171" y="1583"/>    
+    <bendpoint x="1193" y="2064"/>    
+    <bendpoint x="1193" y="2257"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="84">    
+    <bendpoint x="1250" y="531"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="85" name="h"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="87">    
+    <bendpoint x="1707" y="531"/>    
+    <bendpoint x="1707" y="1228"/>    
+    <bendpoint x="1707" y="1583"/>    
+    <bendpoint x="1707" y="2064"/>    
+    <bendpoint x="1707" y="2257"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="24"/>  
+  </dependency>  
+  <dependency id="88">    
+    <bendpoint x="106" y="1583"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="29"/>  
+  </dependency>  
+  <dependency id="89">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="90">    
+    <bendpoint x="973" y="2257"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="91">    
+    <bendpoint x="1172" y="2257"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="92" name="treeOps"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="94">    
+    <bendpoint x="526" y="2257"/>    
+    <bendpoint x="526" y="2064"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="25"/>  
+  </dependency>  
+  <generalization id="95">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <association id="98">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="99" name="visitorFactory"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="101">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="102">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="103">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="104">    
+    <bendpoint x="284" y="2257"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="105">    
+    <bendpoint x="1665" y="2257"/>    
+    <bendpoint x="1665" y="2064"/>    
+    <bendpoint x="1665" y="1583"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="106" name="inputHandler"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="109" name="uniqueInstance"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="111">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="112">    
+    <bendpoint x="753" y="2257"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>
